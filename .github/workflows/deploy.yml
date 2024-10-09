@@ -69,6 +69,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Download build artifact
+        uses: actions/download-pages-artifact@v3
       - name: Set up Git
         run: |
           git config --global user.email "tobias@mreich.com"
@@ -77,7 +79,7 @@ jobs:
         run: |
           git checkout -B gh-pages  # Create or switch to the gh-pages branch
           rm -rf *  # Remove all existing files (except .git)
-          cp -r ../.output/public/* ./  # Copy built files to root directory
+          cp -r ./public/* ./  # Copy the files from the downloaded artifact
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push origin gh-pages --force
