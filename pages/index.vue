@@ -11,19 +11,19 @@
 
    We wish you an interesting and pleasant stay on our pages."
     :images="[
-      'https://www.biorobotiklabor.de/images/IMG_20180418_163023__680x510_mLogo.jpg',
-      'https://www.biorobotiklabor.de/images/IMG_20180416_223402__680x510_mLogo.jpg',
-      'https://www.biorobotiklabor.de/images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png',
-      'https://www.biorobotiklabor.de/images/_Festo--BionicMotionRobot__snap_3er_2__680x510_mLogo.png',
-      'https://www.biorobotiklabor.de/images/BROMMI-TAK__Pose4_800x600_text-en.jpg',
-      'https://www.biorobotiklabor.de/images/BROMMI-TAK__TUB-180513170513-31_700x510_text.jpg',
-      'https://www.biorobotiklabor.de/images/BROMMI-TAK__assistant_in_the_assembly_0001_640x480_text-en.jpg',
-      'https://www.biorobotiklabor.de/images/BROMMI-TAK__assistant_in_the_assembly_0022_800x600_text-en.jpg',
-      'https://www.biorobotiklabor.de/images/BROMMI-TAK__assistant_in_the_household_10014_800x600_text-en.jpg',
-      'https://www.biorobotiklabor.de/images/zar5-GreifPositionen_1.jpg',
-      'https://www.biorobotiklabor.de/images/zar5-GreifPositionen_4.jpg',
-      'https://www.biorobotiklabor.de/images/zar5-HM06-Merkel-05_cr.jpg',
-      'https://www.biorobotiklabor.de/images/zar5-HM06-Merkel-07_cr.jpg',
+      '/images/IMG_20180418_163023__680x510_mLogo.jpg',
+      '/images/IMG_20180416_223402__680x510_mLogo.jpg',
+      '/images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png',
+      '/images/_Festo--BionicMotionRobot__snap_3er_2__680x510_mLogo.png',
+      '/images/BROMMI-TAK__Pose4_800x600_text-en.jpg',
+      '/images/BROMMI-TAK__TUB-180513170513-31_700x510_text.jpg',
+      '/images/BROMMI-TAK__assistant_in_the_assembly_0001_640x480_text-en.jpg',
+      '/images/BROMMI-TAK__assistant_in_the_assembly_0022_800x600_text-en.jpg',
+      '/images/BROMMI-TAK__assistant_in_the_household_10014_800x600_text-en.jpg',
+      '/images/zar5-GreifPositionen_1.jpg',
+      '/images/zar5-GreifPositionen_4.jpg',
+      '/images/zar5-HM06-Merkel-05_cr.jpg',
+      '/images/zar5-HM06-Merkel-07_cr.jpg',
     ]"
   />
   <Logos class="my-16 lg:my-24" />
