@@ -1,7 +1,11 @@
 <template>
-  <Hero />
+  <Hero
+    title="Compliant Robotic Systems"
+    subtitle="Soft design and control stiff - be inherently safe"
+    image="/images/2022-mgasch-DSCF0972__680x510.jpg"
+  />
   <ContentSection
-  class="my-16 lg:my-24"
+    class="my-16 lg:my-24"
     title="Welcome To Our Homepage"
     text="You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction.
 
@@ -26,7 +30,17 @@
       '/images/zar5-HM06-Merkel-07_cr.jpg',
     ]"
   />
-  <Logos class="my-16 lg:my-24" />
+  <Logos
+    class="my-16 lg:my-24"
+    :images="[
+      '/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png',
+      '/images/logos/CarlStahl_310x135.png',
+      '/images/logos/Festo_200x63.png',
+      '/images/logos/SachEng._400x175.jpg',
+      '/images/logos/TU-Berlin_360x114.png',
+      '/images/logos/VDI-VDE-IT_200x63.png',
+    ]"
+  />
 </template>
 
 <script setup lang="ts"></script>
