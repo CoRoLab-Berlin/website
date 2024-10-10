@@ -24,10 +24,10 @@
       '/images/BROMMI-TAK__assistant_in_the_assembly_0001_640x480_text-en.jpg',
       '/images/BROMMI-TAK__assistant_in_the_assembly_0022_800x600_text-en.jpg',
       '/images/BROMMI-TAK__assistant_in_the_household_10014_800x600_text-en.jpg',
-      '/images/zar5-GreifPositionen_1.jpg',
-      '/images/zar5-GreifPositionen_4.jpg',
-      '/images/zar5-HM06-Merkel-05_cr.jpg',
-      '/images/zar5-HM06-Merkel-07_cr.jpg',
+      '/images/zar5-GreifPositionen_1.png',
+      '/images/zar5-GreifPositionen_4.png',
+      '/images/zar5-HM06-Merkel-05_cr.png',
+      '/images/zar5-HM06-Merkel-07_cr.png',
     ]"
   />
   <Logos
