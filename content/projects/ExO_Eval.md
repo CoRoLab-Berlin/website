@@ -8,7 +8,7 @@ image: https://placehold.co/600x400
 
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[BackBooster-Exoskelett - Optimierung und Evaluation](https://www.ifaf-berlin.de/projekte/exo-eval/)" (ExO-Eval) is a joint project of:
 
-- [Berlin University of Applied Sciences](http://www.bht-berlin.de) working group softrobotics of [Prof. Dr.-Ing. Ivo W. Boblan](contact_boblan.html),
+- [Berlin University of Applied Sciences](http://www.bht-berlin.de) working group softrobotics of Prof. Dr.-Ing. Ivo W. Boblan,
 - [Hochschule für Technik und Wirtschaft Berlin](https://www.htw-berlin.de/) working group medical physics of [Prof. Dr.-Ing. Sebastian Götz](https://www.htw-berlin.de/hochschule/personen/person/?eid=10974),
 - [Carl Stahl Hebetechnik GmbH](https://www.carlstahl-hebetechnik.de/),
 - [J. Schmalz GmbH](https://www.schmalz.com/de-de/),
