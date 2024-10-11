@@ -14,6 +14,10 @@
           :key="project.id"
           class="flex max-w-xl flex-col items-start justify-between"
         >
+        <NuxtImg
+          :src="project.image"
+          class="w-full sm:aspect-[2/1] lg:aspect-[3/2] border-2 rounded-2xl mb-4"
+        />
           <div class="flex items-center gap-x-4 text-xs">
             <span class="text-gray-500">{{ project.timespan }}</span>
             <div
@@ -22,7 +26,7 @@
               {{ project.status }}
             </div>
           </div>
-          <div class="group relative">
+          <NuxtLink :to="project._path" class="group relative">
             <h3
               class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600"
             >
@@ -34,7 +38,7 @@
             <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
               {{ project.description }}
             </p>
-          </div>
+          </NuxtLink>
         </article>
       </div>
     </div>
@@ -43,7 +47,15 @@
 
 <script setup lang="ts">
 const { data: projects } = await useAsyncData(() => {
-  return queryContent(`/projects`).find();
+  return queryContent('/projects')
+    .find()
+    .then((projects) => {
+      return projects.sort((a, b) => {
+        // Extrahiere das Startjahr aus dem timespan-Feld
+        const startYearA = parseInt(a.timespan.split(' - ')[0]);
+        const startYearB = parseInt(b.timespan.split(' - ')[0]);
+        return startYearB - startYearA; // Sortiert aufsteigend nach Startjahr
+      });
+    });
 });
-console.log(projects.value);
 </script>

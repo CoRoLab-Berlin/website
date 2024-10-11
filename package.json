@@ -16,6 +16,7 @@
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@tailwindcss/typography": "^0.5.15",
     "@vue-hero-icons/outline": "^1.7.2",
     "@vue-hero-icons/solid": "^1.7.2",
     "nuxt": "^3.13.0",
