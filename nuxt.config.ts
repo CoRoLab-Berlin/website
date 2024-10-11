@@ -7,7 +7,12 @@ export default defineNuxtConfig({
     baseURL: "/corolab_website/",
   },
 
-  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
+  modules: [
+    "@nuxt/content",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/eslint",
+  ],
 
   runtimeConfig: {
     public: {

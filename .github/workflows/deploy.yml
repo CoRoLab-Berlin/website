@@ -17,6 +17,7 @@ jobs:
       # Pick your own package manager and build script
       - run: npm install
       - run: echo "pages/index-strapi.vue" > .nuxtignore
+      - echo "projects-strapi/*" >> .nuxtignore
       - run: npx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
