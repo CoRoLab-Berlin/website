@@ -1,7 +1,7 @@
 ---
 title: BIOKIT
 description: The IFAF project BIOKIT develops a real-time motion analysis tool to enhance therapy for musculoskeletal disorders with precise feedback.
-timespan: 2023 - 2025
+timespan: 2023 - 20255555
 status: Active
 ---
 
