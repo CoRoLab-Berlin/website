@@ -57,5 +57,4 @@ const route = useRoute();
 const { data } = await useAsyncData("page-data", () =>
   queryContent(route.fullPath).findOne()
 );
-console.log(data.value);
 </script>

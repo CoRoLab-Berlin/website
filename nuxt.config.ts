@@ -13,11 +13,4 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/eslint",
   ],
-
-  runtimeConfig: {
-    public: {
-      strapi: process.env.STRAPI_TOKEN,
-      apiUrl: process.env.API_URL,
-    },
-  },
 });
