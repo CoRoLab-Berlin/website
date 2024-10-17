@@ -1,11 +1,11 @@
 <template>
   <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
     <h1 class="text-3xl font-bold text-slate-900">
-      Available hardware in our lab
+        Publications
     </h1>
     <div class="mt-6 border border-slate-200 rounded-lg px-4">
       <div
-        v-for="(item, index) in hardware"
+        v-for="(publicationCategory, index) in publicationCategories"
         :key="index"
         class="border-b border-slate-200"
       >
@@ -13,7 +13,7 @@
           class="w-full flex justify-between items-center py-5 text-slate-800"
           @click="toggleAccordion(index)"
         >
-          <span>{{ item.title }}</span>
+          <span>{{ publicationCategory.title }}</span>
           <span
             :class="[
               'text-slate-800 transition-transform duration-300',
@@ -31,9 +31,9 @@
         >
           <div class="pb-5 text-sm text-slate-500">
             <ContentRendererMarkdown
-                class="prose prose-h2:text-xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold !mx-0"
-                :value="item"
-              />
+              class="prose prose-h2:text-xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold !mx-0"
+              :value="publicationCategory"
+            />
           </div>
         </div>
       </div>
@@ -44,10 +44,8 @@
 <script setup lang="ts">
 import { PlusIcon } from "@heroicons/vue/16/solid";
 
-const { data: hardware } = await useAsyncData(() => {
-  return queryContent("/hardware").find().then(items => {
-    return items.sort((a, b) => a.order - b.order);
-  });
+const { data: publicationCategories } = await useAsyncData(() => {
+  return queryContent("/publications").find();
 });
 
 const activeAccordion = ref(null);
@@ -64,12 +62,3 @@ const toggleAccordion = async (index) => {
   }
 };
 </script>
-
-<style scoped>
-.rotate-45 {
-  transform: rotate(45deg);
-}
-.rotate-0 {
-  transform: rotate(0deg);
-}
-</style>

@@ -90,7 +90,7 @@ const pages = [
   { name: "Our Work", href: "#" },
   { name: "Projects", href: "projects" },
   { name: "Hardware", href: "hardware" },
-  { name: "Publications", href: "#" },
+  { name: "Publications", href: "publications" },
   { name: "Teaching", href: "#" },
   { name: "Contact Us", href: "#" },
 ];
