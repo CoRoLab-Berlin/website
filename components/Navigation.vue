@@ -7,7 +7,7 @@
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img
+          <NuxtImg
             class="h-8 w-auto"
             src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
             alt=""
@@ -47,7 +47,7 @@
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img
+            <NuxtImg
               class="h-8 w-auto"
               src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
               alt=""
@@ -66,9 +66,9 @@
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               <NuxtLink
-              v-for="page in pages"
-              :key="page.name"
-              :to="page.href"
+                v-for="page in pages"
+                :key="page.name"
+                :to="page.href"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
               >
                 {{ page.name }}
@@ -83,20 +83,13 @@
 
 <script setup>
 import { ref } from "vue";
-import {
-  Dialog,
-  DialogPanel,
-  PopoverGroup,
-} from "@headlessui/vue";
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/vue/24/outline";
+import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/vue";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const pages = [
   { name: "Our Work", href: "#" },
   { name: "Projects", href: "projects" },
-  { name: "Hardware", href: "#" },
+  { name: "Hardware", href: "hardware" },
   { name: "Publications", href: "#" },
   { name: "Teaching", href: "#" },
   { name: "Contact Us", href: "#" },

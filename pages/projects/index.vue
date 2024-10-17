@@ -51,10 +51,10 @@ const { data: projects } = await useAsyncData(() => {
     .find()
     .then((projects) => {
       return projects.sort((a, b) => {
-        // Extrahiere das Startjahr aus dem timespan-Feld
+        // Sort by start year
         const startYearA = parseInt(a.timespan.split(' - ')[0]);
         const startYearB = parseInt(b.timespan.split(' - ')[0]);
-        return startYearB - startYearA; // Sortiert aufsteigend nach Startjahr
+        return startYearB - startYearA;
       });
     });
 });

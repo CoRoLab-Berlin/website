@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      failOnError: false,
+      failOnError: false,  //TODO: temporary fix for 404 error
     },
   },
 
