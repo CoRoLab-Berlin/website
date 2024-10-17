@@ -48,10 +48,10 @@ const { data: publicationCategories } = await useAsyncData(() => {
   return queryContent("/publications").find();
 });
 
-const activeAccordion = ref(null);
-const contentHeight = ref([]);
+const activeAccordion = ref<null | number>(null);
+const contentHeight = ref<string[]>([]);
 
-const toggleAccordion = async (index) => {
+const toggleAccordion = async (index: number) => {
   if (activeAccordion.value === index) {
     activeAccordion.value = null;
   } else {

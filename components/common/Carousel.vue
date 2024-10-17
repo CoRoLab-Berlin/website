@@ -3,7 +3,7 @@
     :items-to-show="1"
     class="w-full"
     :autoplay="3000"
-    wrapAround
+    wrap-around
   >
     <Slide v-for="(image, index) in props.images" :key="index">
       <NuxtImg :src="image" class="object-cover w-full rounded-xl" />

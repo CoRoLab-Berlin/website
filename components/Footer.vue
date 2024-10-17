@@ -6,7 +6,7 @@
           <div class="flex">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img
+              <NuxtImg
                 class="h-8 w-auto"
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
