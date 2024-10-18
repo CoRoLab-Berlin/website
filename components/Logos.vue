@@ -5,7 +5,7 @@
         In Cooperation with
       </h2>
       <div
-        class="mx-auto mt-10 max-w-lg flex items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none"
+        class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none"
       >
         <NuxtImg
           v-for="(image, index) in props.images"
@@ -14,10 +14,11 @@
           :src="image"
           width="158"
           height="48"
+          fit="inside"
         />
       </div>
+      </div>
     </div>
-  </div>
 </template>
 
 <script setup lang="ts">

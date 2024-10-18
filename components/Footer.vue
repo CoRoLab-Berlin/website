@@ -2,16 +2,18 @@
   <footer class="w-full bg-indigo-50 py-10">
     <div class="mx-auto max-w-7xl">
       <div class="flex justify-between items-center flex-col gap-8 xl:flex-row">
-        <div class="flex items-center justify-between gap-5 flex-wrap w-full">
+        <div
+          class="flex items-center justify-around lg:justify-between gap-5 flex-wrap w-full px-4 lg:p-0"
+        >
           <div class="flex">
-            <a href="#" class="-m-1.5 p-1.5">
+            <NuxtLink href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
               <NuxtImg
                 class="h-8 w-auto"
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               />
-            </a>
+            </NuxtLink>
           </div>
           <ul
             class="text-base flex items-center gap-3 md:gap-6 transition-all duration-500 justify-around"
@@ -25,14 +27,15 @@
                 {{ link.title }}
               </NuxtLink>
             </li>
+            <li>
+              <NuxtLink
+                to="/disclaimer"
+                class="text-gray-800 hover:text-indigo-600"
+              >
+                Disclaimer
+              </NuxtLink>
+            </li>
           </ul>
-          <NuxtLink
-            to="link.url"
-            class="text-gray-800 hover:text-indigo-600"
-            target="_blank"
-          >
-            Disclaimer
-          </NuxtLink>
         </div>
       </div>
     </div>

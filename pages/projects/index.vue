@@ -14,10 +14,10 @@
           :key="project.id"
           class="flex max-w-xl flex-col items-start justify-between"
         >
-        <NuxtImg
-          :src="project.image"
-          class="w-full sm:aspect-[2/1] lg:aspect-[3/2] border-2 rounded-2xl mb-4"
-        />
+          <NuxtImg
+            :src="project.image"
+            class="w-full sm:aspect-[2/1] lg:aspect-[3/2] rounded-2xl mb-4 object-cover"
+          />
           <div class="flex items-center gap-x-4 text-xs">
             <span class="text-gray-500">{{ project.timespan }}</span>
             <div
@@ -47,13 +47,13 @@
 
 <script setup lang="ts">
 const { data: projects } = await useAsyncData(() => {
-  return queryContent('/projects')
+  return queryContent("/projects")
     .find()
     .then((projects) => {
       return projects.sort((a, b) => {
         // Sort by start year
-        const startYearA = parseInt(a.timespan.split(' - ')[0]);
-        const startYearB = parseInt(b.timespan.split(' - ')[0]);
+        const startYearA = parseInt(a.timespan.split(" - ")[0]);
+        const startYearB = parseInt(b.timespan.split(" - ")[0]);
         return startYearB - startYearA;
       });
     });

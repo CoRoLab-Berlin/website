@@ -88,11 +88,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const pages = [
   { name: "Our Work", href: "#" },
-  { name: "Projects", href: "projects" },
-  { name: "Hardware", href: "hardware" },
-  { name: "Publications", href: "publications" },
+  { name: "Projects", href: "/projects" },
+  { name: "Hardware", href: "/hardware" },
+  { name: "Publications", href: "/publications" },
   { name: "Teaching", href: "#" },
-  { name: "Contact Us", href: "contact" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 const mobileMenuOpen = ref(false);
