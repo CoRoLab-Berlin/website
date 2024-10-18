@@ -87,7 +87,7 @@ import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const pages = [
-  { name: "Our Work", href: "#" },
+  { name: "Our Work", href: "/work" },
   { name: "Projects", href: "/projects" },
   { name: "Hardware", href: "/hardware" },
   { name: "Publications", href: "/publications" },
