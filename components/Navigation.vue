@@ -91,6 +91,7 @@ const pages = [
   { name: "Projects", href: "/projects" },
   { name: "Hardware", href: "/hardware" },
   { name: "Publications", href: "/publications" },
+  { name: "Team", href: "/team" },
   { name: "Teaching", href: "/teaching" },
   { name: "Contact Us", href: "/contact" },
 ];

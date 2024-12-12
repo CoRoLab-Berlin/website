@@ -44,10 +44,10 @@ const content = {
 
 const logos = [
   "/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png",
-  "/images/logos/CarlStahl_310x135.png",
+  "/images/logos/CarlStahl_Logo.png",
   "/images/logos/Festo_200x63.png",
   "/images/logos/SachEng._400x175.jpg",
-  "/images/logos/TU-Berlin_360x114.png",
+  "/images/logos/TU-Berlin.png",
   "/images/logos/VDI-VDE-IT_200x63.png",
 ];
 </script>

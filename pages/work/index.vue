@@ -32,7 +32,7 @@
               </p>
               <NuxtLink
                 :to="work.link ? work.link : work._path"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-bhtred-600 rounded-lg hover:bg-bhtred-500 focus:ring-4 focus:outline-none focus:ring-indigo-300"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-bhtgray-600 rounded-lg hover:shadow-md text-bhtyellow-500"
               >
                 Read more
                 <ArrowRightIcon class="w-4 h-4 ml-2" />
