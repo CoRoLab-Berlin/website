@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full bg-indigo-50 py-10">
+  <footer class="w-full bg-bhtgray-800 py-10">
     <div class="mx-auto max-w-7xl">
       <div class="flex justify-between items-center flex-col gap-8 xl:flex-row">
         <div
@@ -21,7 +21,7 @@
             <li v-for="(link, index) in props.links" :key="index">
               <NuxtLink
                 :to="link.url"
-                class="text-gray-800 hover:text-indigo-600"
+                class="hover:text-bhtyellow-500"
                 target="_blank"
               >
                 {{ link.title }}
@@ -30,7 +30,7 @@
             <li>
               <NuxtLink
                 to="/disclaimer"
-                class="text-gray-800 hover:text-indigo-600"
+                class="hover:text-bhtyellow-500"
               >
                 Disclaimer
               </NuxtLink>

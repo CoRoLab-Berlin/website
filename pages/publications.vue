@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -38,7 +38,7 @@
             >
               <div class="pb-5 text-sm text-slate-500">
                 <ContentRendererMarkdown
-                  class="prose prose-h2:text-xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold !mx-0"
+                  class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0"
                   :value="publicationCategory"
                 />
               </div>

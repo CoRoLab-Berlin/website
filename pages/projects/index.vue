@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class=" py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
           Current and past projects in our lab
         </h2>
       </div>
@@ -19,9 +19,9 @@
             class="w-full sm:aspect-[2/1] lg:aspect-[3/2] rounded-2xl mb-4 object-cover"
           />
           <div class="flex items-center gap-x-4 text-xs">
-            <span class="text-gray-500">{{ project.timespan }}</span>
+            <span class="text-bhtyellow-500">{{ project.timespan }}</span>
             <div
-              class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+              class="relative z-10 rounded-full bg-bhtgray-600 ring-1 ring-bhtgray-500 px-3 py-1.5 font-medium text-bhtyellow-500 hover:bg-gray-100"
             >
               {{ project.status }}
             </div>

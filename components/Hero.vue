@@ -1,7 +1,7 @@
 <template>
-  <section class="pt-0 h-full">
+  <section class="pt-0 h-full bg-bhtgray-700">
     <div
-      class="bg-indigo-50 py-10 overflow-hidden px-5 lg:m-0 2xl:py-16 xl:py-8"
+      class="py-10 overflow-hidden px-5 lg:m-0 2xl:py-16 xl:py-8"
     >
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div

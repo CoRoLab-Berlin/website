@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -13,7 +13,7 @@
           <div
             v-for="(work, index) in data"
             :key="index"
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow"
+            class="max-w-sm bg-bhtgray-500 border border-bhtgray-400 rounded-lg shadow"
           >
             <NuxtImg
               :src="work.image"
@@ -32,7 +32,7 @@
               </p>
               <NuxtLink
                 :to="work.link ? work.link : work._path"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-bhtred-600 rounded-lg hover:bg-bhtred-500 focus:ring-4 focus:outline-none focus:ring-indigo-300"
               >
                 Read more
                 <ArrowRightIcon class="w-4 h-4 ml-2" />

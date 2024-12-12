@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-bhtgray-700">
     <Hero
       title="Compliant Robotic Lab"
       subtitle="Soft design and control stiff - be inherently safe"

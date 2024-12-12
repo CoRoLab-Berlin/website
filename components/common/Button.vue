@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    class="bg-indigo-600 text-white rounded-xl cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-indigo-700"
+    class="bg-bhtred-600 text-white rounded-xl cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-indigo-700"
   >
     {{ props.text }}
   </button>
