@@ -20,4 +20,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/eslint",
   ],
+
+  css: ['~/assets/css/main.css']
 });

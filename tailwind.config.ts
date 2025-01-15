@@ -47,6 +47,10 @@ export default {
         950: "#262626",
       },
     },
+    fontFamily: {
+      bhtCaseMicro: ["BHTCaseMicro", "sans-serif"],
+      // Add more custom font families as needed
+    },
     extend: {
       typography: ({ theme }) => ({
         bht: {
