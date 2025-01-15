@@ -5,11 +5,11 @@
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
-        <NuxtLink to="/" class="-m-1.5 p-1.5">
+        <NuxtLink to="/" class="-m-1 p-1">
           <span class="sr-only">Your Company</span>
           <NuxtImg
-            class="h-8 w-auto"
-            src="https://tailwindui.com/plus/img/logos/mark.svg?color=yellow&shade=500"
+            class="h-12 w-auto"
+            src="images/corolab_logo_only.svg"
             alt=""
           />
         </NuxtLink>
@@ -29,7 +29,7 @@
           v-for="page in pages"
           :key="page.name"
           :to="page.href"
-          class="text-sm font-semibold leading-6 hover:text-bhtyellow-500"
+          class="text-base font-semibold leading-6 hover:text-bhtyellow-500"
         >
           {{ page.name }}
         </NuxtLink>
@@ -45,11 +45,11 @@
         class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-bhtgray-700 px-6 py-6 sm:max-w-sm"
       >
         <div class="flex items-center justify-between">
-          <NuxtLink to="/" class="-m-1.5 p-1.5">
+          <NuxtLink to="/" class="-m-1 p-1">
             <span class="sr-only">Your Company</span>
             <NuxtImg
-              class="h-8 w-auto"
-              src="https://tailwindui.com/plus/img/logos/mark.svg?color=yellow&shade=500"
+              class="h-12 w-auto"
+              src="images/corolab_logo_only.svg"
               alt=""
             />
           </NuxtLink>
@@ -93,7 +93,7 @@ const pages = [
   { name: "Publications", href: "/publications" },
   { name: "Team", href: "/team" },
   { name: "Teaching", href: "/teaching" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Contact Us Q", href: "/contact" },
 ];
 
 const mobileMenuOpen = ref(false);

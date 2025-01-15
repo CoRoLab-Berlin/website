@@ -6,11 +6,11 @@
           class="flex items-center justify-around lg:justify-between gap-5 flex-wrap w-full px-4 lg:p-0"
         >
           <div class="flex">
-            <NuxtLink href="#" class="-m-1.5 p-1.5">
+            <NuxtLink href="#" class="-m-1 p-1">
               <span class="sr-only">Your Company</span>
               <NuxtImg
-                class="h-8 w-auto"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                class="h-12 w-auto"
+                src="images/corolab_logo_only.svg"
                 alt=""
               />
             </NuxtLink>
