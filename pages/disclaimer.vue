@@ -3,7 +3,7 @@
     <ContentRenderer :value="data">
       <ContentRendererMarkdown
         :value="data"
-        class="prose prose-h2:text-xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold mx-auto"
+        class="prose prose-h2:text-xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht mx-auto"
       />
     </ContentRenderer>
   </main>
