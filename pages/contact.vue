@@ -15,27 +15,57 @@
         <div>
           <h2 class="text-xl font-semibold mb-4">Address Teaching</h2>
           <p class="text-gray-700">
-            <strong>Berliner Hochschule für Technik (BHT)</strong><br />
-            Fachbereich VII Elektrotechnik<br />
-            Studiengang Humanoide Robotik (HROB)<br />
-            Luxemburger Str. 10<br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              ><strong>Berliner Hochschule für Technik (BHT)</strong></NuxtLink
+            ><br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/vii"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Fachbereich VII Elektrotechnik</NuxtLink
+            ><br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/b-hrob"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Studiengang Humanoide Robotik (HROB)</NuxtLink
+            ><br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/lageplan"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Luxemburger Str. 10</NuxtLink
+            ><br />
             13353 Berlin
           </p>
           <p class="mt-4">
             Homepage:
-            <a href="#" class="text-blue-500 hover:underline"
-              >general directory</a
-            ><br />
-            Mail:
-            <a
-              href="mailto:ivo.boblan@bht-berlin.de"
+            <NuxtLink
+              to="https://www.bht-berlin.de/people/detail/1720/"
               class="text-blue-500 hover:underline"
-              >ivo.boblan(at)bht-berlin.de</a
-            ><br />
+              target="_blank"
+              >general directory</NuxtLink
+            >
+            <br />
+            Mail:
+            <NuxtLink
+              to="mailto:ivo.boblan@bht-berlin.de"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >ivo.boblan(at)bht-berlin.de</NuxtLink
+            >
+            <br />
             Phone:
-            <a href="tel:+493045042369" class="text-blue-500 hover:underline"
-              >030 4504 2369</a
-            ><br />
+            <NuxtLink
+              to="tel:+493045042369"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >030 4504 2369</NuxtLink
+            >
+            <br />
             Room: House Gauß, floor 1, room B 140
           </p>
           <!-- Map -->
@@ -52,25 +82,52 @@
         <div>
           <h2 class="text-xl font-semibold mb-4">Address Research</h2>
           <p class="text-gray-700">
-            <strong>Berliner Hochschule für Technik (BHT)</strong><br />
-            Fachbereich VII Elektrotechnik<br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              ><strong>Berliner Hochschule für Technik (BHT)</strong></NuxtLink
+            >
+            <br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/vii"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Fachbereich VII Elektrotechnik</NuxtLink
+            >
+            <br />
             Compliant Robotics Lab (CoRoLab)<br />
-            Schwedenstraße 9<br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/2191"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Schwedenstraße 9</NuxtLink
+            >
+            <br />
             13357 Berlin
           </p>
           <p class="mt-4">
             Homepage:
-            <a href="#" class="text-blue-500 hover:underline">personally</a
-            ><br />
-            Mail:
-            <a
-              href="mailto:info@biorobotiklabor.de"
+            <NuxtLink
+              to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
-              >info(at)biorobotiklabor.de</a
+              target="_blank"
+              >personally</NuxtLink
+            >
+            <br />
+            Mail:
+            <NuxtLink
+              to="mailto:info@biorobotiklabor.de"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >info(at)biorobotiklabor.de</NuxtLink
             ><br />
             Phone:
-            <a href="tel:+493045047852" class="text-blue-500 hover:underline"
-              >030 4504 7852</a
+            <NuxtLink
+              to="tel:+493045047852"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >030 4504 7852</NuxtLink
             ><br />
             Room: No. 9, floor 5, room SWS 530
           </p>

@@ -48,7 +48,7 @@
           <NuxtLink to="/" class="-m-1 p-1">
             <span class="sr-only">Your Company</span>
             <NuxtImg
-              class="h-12 w-auto"
+              class="h-16 w-auto"
               src="images/corolab_logo_only.svg"
               alt=""
             />
