@@ -38,7 +38,7 @@
             >
               <div class="pb-5 text-sm text-slate-500">
                 <ContentRendererMarkdown
-                  class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0"
+                  class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0 max-w-none"
                   :value="publicationCategory"
                 />
               </div>
