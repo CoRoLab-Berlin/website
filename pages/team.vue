@@ -24,7 +24,7 @@
             />
             <div class="p-5">
               <h3 class="text-xl font-bold tracking-tight text-gray-900">
-                <a href="#">{{ person.name }}</a>
+                <a href="#">{{ person.name + (person.extern ? ` (${ person.extern })` : "") }}</a>
               </h3>
               <span class="text-gray-500">{{ person.role }}</span>
               <p class="mt-3 mb-4 font-light text-gray-500">
@@ -103,7 +103,12 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useAsyncData(() => {
-  return queryContent("/team").find();
+const { data } = await useAsyncData(async () => {
+  const teamData = await queryContent("/team").find();
+  return teamData.sort((a, b) => {
+    const lastNameA = a.name.split(" ").pop().toLowerCase();
+    const lastNameB = b.name.split(" ").pop().toLowerCase();
+    return lastNameA.localeCompare(lastNameB);
+  });
 });
 </script>
