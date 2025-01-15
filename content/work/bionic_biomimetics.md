@@ -2,6 +2,7 @@
 title: "Bionik, Biomimetics"
 description: "Bionics merges biology and technology to solve engineering challenges using insights from biological models (VDI-6220 2011)."
 image: "images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png"
+index: 3
 ---
 
 Bionik or biomimetics combines biology and technologie with the goal of abstraction, transmission and application of knowledge that are gained through interdisciplinary collaboration of biological models to solve engineering problems (VDI-6220 2011).

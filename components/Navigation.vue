@@ -8,7 +8,7 @@
         <NuxtLink to="/" class="-m-1 p-1">
           <span class="sr-only">Your Company</span>
           <NuxtImg
-            class="h-12 w-auto"
+            class="h-16 w-auto"
             src="images/corolab_logo_only.svg"
             alt=""
           />
@@ -93,7 +93,7 @@ const pages = [
   { name: "Publications", href: "/publications" },
   { name: "Team", href: "/team" },
   { name: "Teaching", href: "/teaching" },
-  { name: "Contact Us Q", href: "/contact" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 const mobileMenuOpen = ref(false);

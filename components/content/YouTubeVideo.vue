@@ -6,7 +6,7 @@
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-      class="w-full aspect-video h-full"
+      class="w-full aspect-video h-full max-w-xl"
     />
   </div>
 </template>

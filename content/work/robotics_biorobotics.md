@@ -2,6 +2,7 @@
 title: "Robotics, Biorobotics"
 description: "Biorobotics encompasses robotics, cybernetics, biomimetics, and engineering as a collective field of study."
 image: "images/zar5-GreifPositionen_1.png"
+index: 2
 ---
 
 Biorobotics is a term that loosely covers the fields of robotics, cybernetics, biomimetics and even engineering as a collective study.

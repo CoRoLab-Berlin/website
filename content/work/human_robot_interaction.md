@@ -2,6 +2,7 @@
 title: "Human-Robot Interaction"
 description: "An interdisciplinary team from robotics, biophysics, and neurobiology in the MTI-engAge group explores holistic HRI solutions."
 image: "images/Go1_TKV00693__1024x0683.jpg"
+index: 4
 ---
 
 An interdisciplinary team of researchers from the fields of robotic engineering, biophysics, science and technology studies, neurobiology and interaction design has come together in the junior research group MTI-engAge to investigate criteria and possibilities of a successful HRI with a holistic approach.
