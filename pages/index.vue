@@ -4,13 +4,14 @@
       title="Compliant Robotic Lab"
       subtitle="Soft design and control stiff - be inherently safe"
       image="/images/2022-mgasch-DSCF0972__680x510.jpg"
+      :images="content.images"
     />
-    <ContentSection
+    <!-- <ContentSection
       class="my-16 lg:my-24"
       :title="content.title"
       :text="content.text"
       :images="content.images"
-    />
+    /> -->
     <Logos class="my-16 lg:my-24" :images="logos" />
   </div>
 </template>

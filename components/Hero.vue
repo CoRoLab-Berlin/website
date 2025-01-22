@@ -8,12 +8,17 @@
           <div
             class="w-full xl:col-span-5 lg:col-span-6 2xl:-mx-5 xl:-mx-0 flex flex-col items-center lg:items-start"
           >
-            <h1
+            <!-- <h1
               class="py-8 text-center text-gray-900 font-bold font-manrope text-5xl lg:text-left leading-[70px] max-w-sm"
             >
               {{ props.title }}
               <br />
-            </h1>
+            </h1> -->
+            <NuxtImg
+            class=" h-48 w-auto"
+            src="images/corolab_logo.svg"
+            alt=""
+          />
             <p class="text-gray-500 text-2xl text-center lg:text-left">
               {{ props.subtitle }}
             </p>
@@ -26,11 +31,12 @@
           </div>
           <div class="w-full xl:col-span-7 lg:col-span-6 block">
             <div class="w-full sm:w-auto">
-              <NuxtImg
+              <!-- <NuxtImg
                 :src="props.image"
                 alt="Dashboard image"
                 class="rounded-3xl w-full"
-              />
+              /> -->
+              <CommonCarousel :images="props.images" class="rounded-3xl w-full" />
             </div>
           </div>
         </div>
@@ -44,5 +50,6 @@ const props = defineProps<{
   title: string;
   subtitle: string;
   image: string;
+  images: string[];
 }>();
 </script>

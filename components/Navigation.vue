@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-bhtgray-700">
+  <header class="bg-bhtgray-800">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       aria-label="Global"
@@ -29,7 +29,8 @@
           v-for="page in pages"
           :key="page.name"
           :to="page.href"
-          class="text-base font-semibold leading-6 hover:text-bhtyellow-500"
+          class="font-semibold text-xl leading-6 hover:text-bhtyellow-500"
+          :class="{ 'text-bhtyellow-500': currentRoute === page.href }"
         >
           {{ page.name }}
         </NuxtLink>
@@ -86,15 +87,20 @@ import { ref } from "vue";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
+const router = useRoute();
+
 const pages = [
-  { name: "Our Work", href: "/work" },
+  { name: "Work", href: "/work" },
   { name: "Projects", href: "/projects" },
   { name: "Hardware", href: "/hardware" },
   { name: "Publications", href: "/publications" },
   { name: "Team", href: "/team" },
   { name: "Teaching", href: "/teaching" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const mobileMenuOpen = ref(false);
+
+const currentRoute = computed(() => router.path);
+console.log(currentRoute.value);
 </script>

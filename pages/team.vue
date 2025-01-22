@@ -12,7 +12,7 @@
             omnis alias excepturi?
           </p>
         </div>
-        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-1 max-w-4xl mx-auto">
           <div
             v-for="(person, index) in data"
             :key="index"

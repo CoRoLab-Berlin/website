@@ -19,7 +19,7 @@
               >
                 {{ data.title }}
               </h1>
-              <p class="mt-6 text-xl leading-8 ">
+              <p class="mt-6 text-xl leading-8 text-justify">
                 {{ data.description }}
               </p>
             </div>
@@ -40,7 +40,7 @@
           <div class="lg:pr-4">
             <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <ContentRendererMarkdown
-              class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0"
+              class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0 text-justify"
               :value="data"
               />
             </div>
