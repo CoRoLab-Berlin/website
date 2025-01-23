@@ -1,7 +1,7 @@
 ---
 title: ZAR5
 order: 6
-image: https://placehold.co/600x400
+image: images/hardware/zar5.jpg
 description: ZAR5 is a Festo AG funded anthropomorphic robot torso completely driven by fluidic muscles.
 ---
 

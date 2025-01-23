@@ -1,7 +1,7 @@
 ---
 title: Go1 Edu
 order: 1
-image: https://placehold.co/600x400
+image: images/hardware/go1.jpg
 
 ---
 

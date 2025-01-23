@@ -1,7 +1,7 @@
 ---
 title: BROMMI:TAK
 order: 5
-image: https://placehold.co/600x400
+image: images/hardware/brommiTak.jpg
 description: BROMMI:TAK is a bioinspired redundant elephant's trunk completely driven by fluidic muscles.
 ---
 

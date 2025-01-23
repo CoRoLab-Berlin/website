@@ -1,7 +1,7 @@
 ---
 title: Exoskeleton
 order: 2
-image: https://placehold.co/600x400
+image: images/hardware/Exoskeleton.jpg
 description: lorem ipsum dolor sit amet
 ---
 

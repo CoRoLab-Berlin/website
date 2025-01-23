@@ -1,7 +1,7 @@
 ---
 title: aCAMOped
 order: 3
-image: https://placehold.co/600x400
+image: images/hardware/camOped.jpe
 ---
 
 Is brand new and will hopefully come soon.

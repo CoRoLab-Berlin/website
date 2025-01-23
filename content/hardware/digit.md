@@ -1,7 +1,7 @@
 ---
 title: Digit
 order: 0
-image: https://placehold.co/600x400
+image: images/hardware/digit.jpg
 
 ---
 
