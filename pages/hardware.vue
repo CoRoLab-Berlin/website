@@ -1,19 +1,8 @@
 <template>
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Available hardware in our lab
-        </h2>
-      </div>
-      <div class="mx-auto lg:mx-0">
-        <p class="text-gray-900 mt-10 font-normal text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto consectetur nobis eaque explicabo harum voluptatibus nihil? Doloremque, ipsam tempora. Deleniti unde nesciunt tenetur dolore excepturi facilis veniam asperiores maiores iure porro. Nulla, repudiandae nobis. Recusandae dolorem consectetur alias deserunt aliquid fugiat nostrum cupiditate, odit at corrupti quo. Aliquid, consequuntur! Maiores minima fugit repellendus neque perferendis eaque officia quisquam excepturi voluptatem commodi quod accusantium aut quam labore, distinctio sapiente vitae exercitationem qui nesciunt? Soluta dolor laboriosam praesentium eveniet fuga culpa nam. Laboriosam aspernatur perferendis voluptates, velit id molestiae quis! Repellat quo dolorem sit veritatis magnam placeat omnis odit voluptas consequuntur!
-        </p>
-      </div>
-      <div
-        class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
-      >
+      <PageHeading :title="title" :description="description" />
+      <div class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none">
         <div class="grid md:grid-cols-3 gap-6">
           <div
             v-for="(hardware, index) in hardware_data"
@@ -100,6 +89,10 @@ const { data: hardware_data } = await useAsyncData(() => {
       return items.sort((a, b) => a.order - b.order);
     });
 });
+
+const title = "Available hardware in our lab";
+const description =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto consectetur nobis eaque explicabo harum voluptatibus nihil? Doloremque, ipsam tempora. Deleniti unde nesciunt tenetur dolore excepturi facilis veniam asperiores maiores iure porro. Nulla, repudiandae nobis. Recusandae dolorem consectetur alias deserunt aliquid fugiat nostrum cupiditate, odit at corrupti quo. Aliquid, consequuntur! Maiores minima fugit repellendus neque perferendis eaque officia quisquam excepturi voluptatem commodi quod accusantium aut quam labore, distinctio sapiente vitae exercitationem qui nesciunt? Soluta dolor laboriosam praesentium eveniet fuga culpa nam. Laboriosam aspernatur perferendis voluptates, velit id molestiae quis! Repellat quo dolorem sit veritatis magnam placeat omnis odit voluptas consequuntur!";
 
 // const activeAccordion = ref<null | number>(null);
 // const contentHeight = ref<string[]>([]);

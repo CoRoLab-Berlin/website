@@ -1,22 +1,7 @@
 <template>
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Our lab is working on
-        </h2>
-      </div>
-      <div class="mx-auto lg:mx-0">
-        <p class="text-gray-900 mt-10 font-normal text-justify">
-          You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction.
-
-  We think that the inherent compliance of systems is the key for safe interaction between humans and robots. Passive compliant systems will follow without delay and without active control, which always associated with signal delays, an external contact force. The compliance and resilience can be implemented in both the actuators and in the supporting structure. Compliant actuators have the advantage that they both respond inherently passive compliant and on a control actively be adjusted within limits. Is the required compliance for a given task in a constant and a variable part separable, the constant part may be transferred to the passive mechanical construction. This structural compliance is entirely passive, but can be detected by suitable sensors and possibly mechanically altered. The overall compliance reduced by the passive part also leads to a lower control effort.
-
-  In what way which part of the required total compliance be divided between the construction and the actuators is subject and mission of our lab. Focus are the themes of new materials and manufacturing technologies for lightweight and sustainable constructions and control compliant actuators for safe human-technology interaction.
-
-  We wish you an interesting and pleasant stay on our pages.
-        </p>
-      </div>
+      <PageHeading :title="title" :description="description" />
       <div
         class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
       >
@@ -58,6 +43,9 @@
 
 <script setup lang="ts">
 import { ArrowRightIcon } from "@heroicons/vue/16/solid";
+
+const title = "Our lab is working on"
+const description = "You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction. We think that the inherent compliance of systems is the key for safe interaction between humans and robots. Passive compliant systems will follow without delay and without active control, which always associated with signal delays, an external contact force. The compliance and resilience can be implemented in both the actuators and in the supporting structure. Compliant actuators have the advantage that they both respond inherently passive compliant and on a control actively be adjusted within limits. Is the required compliance for a given task in a constant and a variable part separable, the constant part may be transferred to the passive mechanical construction. This structural compliance is entirely passive, but can be detected by suitable sensors and possibly mechanically altered. The overall compliance reduced by the passive part also leads to a lower control effort. In what way which part of the required total compliance be divided between the construction and the actuators is subject and mission of our lab. Focus are the themes of new materials and manufacturing technologies for lightweight and sustainable constructions and control compliant actuators for safe human-technology interaction. We wish you an interesting and pleasant stay on our pages."
 
 const { data } = await useAsyncData(() => {
   return queryContent("/work")
