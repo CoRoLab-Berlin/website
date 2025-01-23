@@ -1,6 +1,6 @@
 <template>
-  <footer class="w-full bg-bhtgray-800 py-10">
-    <div class="mx-auto max-w-7xl">
+  <footer class="w-full bg-bhtgray-800">
+    <div class="mx-auto max-w-7xl p-6 lg:px-8">
       <div class="flex justify-between items-center flex-col gap-8 xl:flex-row">
         <div
           class="flex items-center justify-around lg:justify-between gap-5 flex-wrap w-full px-4 lg:p-0"
