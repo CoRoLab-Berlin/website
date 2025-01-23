@@ -1,6 +1,8 @@
 ---
 title: Go1 Edu
 order: 1
+image: https://placehold.co/600x400
+
 ---
 
 Go1 at the Long Night of Sciences 2023 at the [BHT](http://www.bht-berlin.de/).

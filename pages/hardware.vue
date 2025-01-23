@@ -14,6 +14,41 @@
       <div
         class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
       >
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            v-for="(hardware, index) in hardware_data"
+            :key="index"
+            class="max-w-sm bg-bhtgray-500 border border-bhtgray-400 rounded-lg shadow"
+          >
+            <NuxtImg
+              :src="hardware.image"
+              class="w-full sm:aspect-[2/1] lg:aspect-[3/2] rounded-t-lg mb-4 object-cover"
+            />
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
+                >
+                  {{ hardware.title }}
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700">
+                {{ hardware.description }}
+              </p>
+              <!-- <NuxtLink
+                :to="work.link ? work.link : work._path"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-bhtgray-600 rounded-lg hover:shadow-md text-bhtyellow-500"
+              >
+                Read more
+                <ArrowRightIcon class="w-4 h-4 ml-2" />
+              </NuxtLink> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div
+        class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
+      >
         <div class="mt-6 border border-slate-200 rounded-lg px-4">
           <div
             v-for="(item, index) in hardware"
@@ -50,15 +85,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { PlusIcon } from "@heroicons/vue/16/solid";
+// import { PlusIcon } from "@heroicons/vue/16/solid";
 
-const { data: hardware } = await useAsyncData(() => {
+const { data: hardware_data } = await useAsyncData(() => {
   return queryContent("/hardware")
     .find()
     .then((items) => {
@@ -66,26 +101,26 @@ const { data: hardware } = await useAsyncData(() => {
     });
 });
 
-const activeAccordion = ref<null | number>(null);
-const contentHeight = ref<string[]>([]);
+// const activeAccordion = ref<null | number>(null);
+// const contentHeight = ref<string[]>([]);
 
-const toggleAccordion = async (index: number) => {
-  if (activeAccordion.value === index) {
-    activeAccordion.value = null;
-  } else {
-    activeAccordion.value = index;
-    await nextTick();
-    const content = document.getElementsByClassName("overflow-hidden")[index];
-    contentHeight.value[index] = content.scrollHeight + "px";
-  }
-};
+// const toggleAccordion = async (index: number) => {
+//   if (activeAccordion.value === index) {
+//     activeAccordion.value = null;
+//   } else {
+//     activeAccordion.value = index;
+//     await nextTick();
+//     const content = document.getElementsByClassName("overflow-hidden")[index];
+//     contentHeight.value[index] = content.scrollHeight + "px";
+//   }
+// };
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .rotate-45 {
   transform: rotate(45deg);
 }
 .rotate-0 {
   transform: rotate(0deg);
 }
-</style>
+</style> -->

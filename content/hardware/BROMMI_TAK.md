@@ -1,6 +1,8 @@
 ---
 title: BROMMI:TAK
 order: 5
+image: https://placehold.co/600x400
+description: BROMMI:TAK is a bioinspired redundant elephant's trunk completely driven by fluidic muscles.
 ---
 
 BROMMI:TAK is a bioinspired redundant elephant's trunk completely driven by fluidic muscles. The robot consist of 8 segments driven by 27 fluidic muscle actuators, controlled by 50 valves and observed by 35 pressure and 19 angle sensors; 19 DOF's.
