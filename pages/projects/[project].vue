@@ -1,6 +1,19 @@
 <template>
   <ContentRenderer v-if="data" :value="data">
-    <div
+
+      <div class="mx-auto max-w-4xl flex flex-col justify-center text-center space-y-6 mt-10">
+        <div>
+
+          <h1 class="text-4xl font-bold text-bhtyellow-500">{{ data.title }}</h1>
+          <p class="text-lg font-semibold">{{ data.timespan }}</p>
+        </div>
+          <!-- <NuxtImg :src="data.image" alt="" /> -->
+           <CommonCarousel :images="data.images" />
+        <div class="prose prose-xl prose-h2:text-2xl prose-headings:no-underline prose-h2:no-underline prose-a:font-semibold prose-bht !mx-0 text-justify">
+          <ContentRendererMarkdown :value="data" />
+        </div>
+    </div>
+    <!-- <div
       class="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
     >
       <div
@@ -47,7 +60,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </ContentRenderer>
 </template>
 

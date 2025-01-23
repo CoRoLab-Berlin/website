@@ -3,7 +3,7 @@ title: EPI
 description: Decoding the catapult start of the locust's hind legs and transferring it to an exoskeleton.
 timespan: 2019 - 2021
 status: Funding expires in September 2021
-image: https://placehold.co/600x400
+images: ["https://placehold.co/600x400"]
 ---
 
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[Exoskelette nach dem Prinzip elastischer Insektenlokomotion](https://www.ifaf-berlin.de/projekte/epi/)" (EPI) is a joint project of:

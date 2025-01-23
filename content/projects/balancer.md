@@ -3,7 +3,7 @@ title: Balancer
 description: Development of a sensor-equipped servo-active balancer with a soft human-controlled servo mechanism.
 timespan: 2018 - 2020
 status: Completed
-image: https://placehold.co/600x400
+images: ["https://placehold.co/600x400"]
 ---
 
 The AIF funded project "Balancer" is a joint project of:

@@ -3,7 +3,7 @@ title: EPI-P
 description: The functional models Knee and Bending Exo (EPI) are structurally optimized and adapted to the areas of application.
 timespan: 2021 - 2022
 status: Funding expires in September 2022
-image: https://placehold.co/600x400
+images: ["https://placehold.co/600x400"]
 ---
 
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[Exoskelette nach dem Prinzip elastischer Insektenlokomotion - Prototyping](https://www.ifaf-berlin.de/projekte/epi-p/)" (EPI-P) is a joint project of:

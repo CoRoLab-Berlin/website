@@ -12,7 +12,7 @@
             class="max-w-sm bg-bhtgray-500 border border-bhtgray-400 rounded-lg shadow"
           >
             <NuxtImg
-              :src="project.image"
+              :src="project.images[0]"
               class="w-full sm:aspect-[2/1] lg:aspect-[3/2] rounded-t-lg mb-4 object-cover"
             />
             <div class="p-5">

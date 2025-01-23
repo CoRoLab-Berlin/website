@@ -3,7 +3,7 @@ title: GEPROG
 description: Identification and optimization of dynamic systems using genetic programming and evolution strategies.
 timespan: 1998 - 2001
 status: Completed
-image: https://placehold.co/600x400
+images: ["https://placehold.co/600x400"]
 ---
 
 Genetic Programming (GP) was originally developed to generate programs by imitating the natural evolution, that solve a given task. As programming languages, initially small subsets were selected from languages that easily machined valid programs could be generated. This was necessary so that the variation of intermediate solutions simulated by mutation and recombination generated not strong structural breaks.

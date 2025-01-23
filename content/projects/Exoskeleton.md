@@ -3,7 +3,7 @@ title: Exoskeleton
 description: Development of an exoskeleton as a lifting aid for physically heavy and monotonously repetitive tasks.
 timespan: 2016 - 2019
 status: Funding expires
-image: https://placehold.co/600x400
+images: ["https://placehold.co/600x400"]
 ---
 
 The [AIF](https://www.aif.de/home.html) funded project pneumatic muscle driven Exoskeleton is a joint project of the companies and universities:
