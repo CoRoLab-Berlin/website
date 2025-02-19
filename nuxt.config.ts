@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: "/corolab_website/",
+    baseURL: "/website/",
   },
 
   modules: [
