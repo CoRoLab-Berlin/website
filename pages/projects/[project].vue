@@ -66,8 +66,11 @@
 
 <script setup lang="ts">
 const route = useRoute();
+const data = ref(null);
 
-const { data } = await useAsyncData("page-data", () =>
-  queryContent(route.fullPath).findOne()
-);
+async function fetchData() {
+  data.value = await queryContent(route.fullPath).findOne();
+}
+
+watch(() => route.fullPath, fetchData, { immediate: true });
 </script>
