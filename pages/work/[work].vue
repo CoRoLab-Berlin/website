@@ -56,5 +56,7 @@ async function fetchData() {
   data.value = await queryContent(route.fullPath).findOne();
 }
 
+await fetchData();
+
 watch(() => route.fullPath, fetchData, { immediate: true });
 </script>
