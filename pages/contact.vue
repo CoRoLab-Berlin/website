@@ -101,10 +101,10 @@
               to="https://www.bht-berlin.de/2191"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Schwedenstraße 9</NuxtLink
+              >Kurfürstenstrasse 141</NuxtLink
             >
             <br />
-            13357 Berlin
+            10785 Berlin
           </p>
           <p class="mt-4">
             Homepage:
@@ -129,12 +129,12 @@
               target="_blank"
               >030 4504 7852</NuxtLink
             ><br />
-            Room: No. 9, floor 5, room SWS 530
+            Room: front building, floor 3, room K._030.023
           </p>
           <!-- Map -->
           <div class="mt-6">
             <NuxtImg
-              src="images/Beuth_Lageplan_Schwedenstrasse.png"
+              src="images/Beuth_Lageplan_Kurfuerstenstrasse.png"
               alt="Research Map"
               class="w-full rounded-2xl shadow aspect-[5/3]"
             />
