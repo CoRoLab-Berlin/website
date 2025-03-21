@@ -13,7 +13,7 @@
       >
         <!-- Address Teaching -->
         <div>
-          <h2 class="text-xl font-semibold mb-4">Address Teaching</h2>
+          <h2 class="text-xl font-semibold mb-4">Postal Address</h2>
           <p class="text-gray-700">
             <NuxtLink
               to="https://www.bht-berlin.de/"
@@ -41,33 +41,6 @@
             ><br />
             13353 Berlin
           </p>
-          <p class="mt-4">
-            Homepage:
-            <NuxtLink
-              to="https://www.bht-berlin.de/people/detail/1720/"
-              class="text-blue-500 hover:underline"
-              target="_blank"
-              >general directory</NuxtLink
-            >
-            <br />
-            Mail:
-            <NuxtLink
-              to="mailto:ivo.boblan@bht-berlin.de"
-              class="text-blue-500 hover:underline"
-              target="_blank"
-              >ivo.boblan(at)bht-berlin.de</NuxtLink
-            >
-            <br />
-            Phone:
-            <NuxtLink
-              to="tel:+493045042369"
-              class="text-blue-500 hover:underline"
-              target="_blank"
-              >030 4504 2369</NuxtLink
-            >
-            <br />
-            Room: House Gauß, floor 1, room B 140
-          </p>
           <!-- Map -->
           <div class="mt-6">
             <NuxtImg
@@ -80,7 +53,7 @@
 
         <!-- Address Research -->
         <div>
-          <h2 class="text-xl font-semibold mb-4">Address Research</h2>
+          <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
           <p class="text-gray-700">
             <NuxtLink
               to="https://www.bht-berlin.de/"
@@ -109,6 +82,13 @@
           <p class="mt-4">
             Homepage:
             <NuxtLink
+              to="https://www.bht-berlin.de/people/detail/1720/"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >general directory</NuxtLink
+            >
+            Homepage:
+            <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
               target="_blank"
@@ -117,11 +97,12 @@
             <br />
             Mail:
             <NuxtLink
-              to="mailto:info@biorobotiklabor.de"
+              to="mailto:ivo.boblan@bht-berlin.de"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >info(at)biorobotiklabor.de</NuxtLink
-            ><br />
+              >ivo.boblan(at)bht-berlin.de</NuxtLink
+            >
+            <br />
             Phone:
             <NuxtLink
               to="tel:+493045047852"
