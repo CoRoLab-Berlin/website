@@ -25,13 +25,7 @@
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Fachbereich VII Elektrotechnik</NuxtLink
-            ><br />
-            <NuxtLink
-              to="https://www.bht-berlin.de/b-hrob"
-              class="text-blue-500 hover:underline"
-              target="_blank"
-              >Studiengang Humanoide Robotik (HROB)</NuxtLink
+              >Poststelle, FB7, HROB, Prof.Boblan
             ><br />
             <NuxtLink
               to="https://www.bht-berlin.de/lageplan"
@@ -67,6 +61,13 @@
               class="text-blue-500 hover:underline"
               target="_blank"
               >Fachbereich VII Elektrotechnik</NuxtLink
+            >
+            <br />
+            <NuxtLink
+              to="https://www.bht-berlin.de/b-hrob"
+              class="text-blue-500 hover:underline"
+              target="_blank"
+              >Studiengang Humanoide Robotik (HROB)</NuxtLink
             >
             <br />
             Compliant Robotics Lab (CoRoLab)<br />
