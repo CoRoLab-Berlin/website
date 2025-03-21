@@ -40,7 +40,6 @@
             <br />
             <br />
             <br />
-            <br />
           </p>
           <!-- Map -->
           <div class="mt-6">
@@ -93,14 +92,13 @@
               to="https://www.bht-berlin.de/people/detail/1720/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >general directory
+              >general directory,
             </NuxtLink>
-            , 
             <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >personally
+              > personally
             </NuxtLink>
             <br />
             Mail:
