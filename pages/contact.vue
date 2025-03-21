@@ -60,7 +60,7 @@
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Fachbereich VII, 
+              >FB VII, 
             </NuxtLink>
             <NuxtLink
               to="https://www.bht-berlin.de/b-hrob"
