@@ -11,7 +11,7 @@
       <div
         class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-x-16"
       >
-        <!-- Address Teaching -->
+        <!-- Postal Address -->
         <div>
           <h2 class="text-xl font-semibold mb-4">Postal Address</h2>
           <p class="text-gray-700">
@@ -48,7 +48,7 @@
           </div>
         </div>
 
-        <!-- Address Research -->
+        <!-- Teaching & Research Address -->
         <div>
           <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
           <p class="text-gray-700">
@@ -75,7 +75,7 @@
             <br />
             Compliant Robotics Lab (CoRoLab)<br />
             <NuxtLink
-              to="https://www.bht-berlin.de/2191"
+              to="https://www.bht-berlin.de/126"
               class="text-blue-500 hover:underline"
               target="_blank"
               >Kurfürstenstrasse 141
@@ -91,6 +91,7 @@
               target="_blank"
               >general directory
             </NuxtLink>
+            <br />
             Homepage:
             <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
