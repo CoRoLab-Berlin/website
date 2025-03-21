@@ -22,20 +22,15 @@
               ><strong>Berliner Hochschule für Technik (BHT)</strong>
             </NuxtLink>
             <br />
-            <NuxtLink
-              to="https://www.bht-berlin.de/vii"
-              class="text-blue-500 hover:underline"
-              target="_blank"
-              >Poststelle, FB7, HROB, Prof.Boblan
-            </NuxtLink>
-            ><br />
+            Poststelle, FB7, HROB, Prof.Boblan
+            <br />
             <NuxtLink
               to="https://www.bht-berlin.de/lageplan"
               class="text-blue-500 hover:underline"
               target="_blank"
               >Luxemburger Str. 10
             </NuxtLink>
-            ><br />
+            <br />
             13353 Berlin
           </p>
           <!-- Map -->
