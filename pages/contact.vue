@@ -32,6 +32,12 @@
             </NuxtLink>
             <br />
             13353 Berlin
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </p>
           <!-- Map -->
           <div class="mt-6">
