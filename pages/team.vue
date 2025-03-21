@@ -107,7 +107,7 @@ const title = "Our Team";
 const description =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio modi labore delectus porro temporibus cupiditate voluptate inventore omnis alias excepturi?";
 
-const roles = ["Head of Lab", "Research Assistant"]; //, "Student Assistants"
+const roles = ["Head of Lab", "Research Assistant", "Research Assistant (extern)"]; //, "Student Assistants"
 
 const { data } = await useAsyncData(async () => {
   const teamData = await queryContent("/team").find();
