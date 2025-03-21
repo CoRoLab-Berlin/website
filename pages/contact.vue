@@ -32,13 +32,7 @@
             </NuxtLink>
             <br />
             13353 Berlin
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <br /><br /><br /><br /><br />
             <br />
           </p>
           <!-- Map -->
