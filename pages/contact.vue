@@ -92,8 +92,7 @@
               target="_blank"
               >general directory
             </NuxtLink>
-            <br />
-            Homepage:
+            , 
             <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
