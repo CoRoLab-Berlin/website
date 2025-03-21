@@ -19,19 +19,22 @@
               to="https://www.bht-berlin.de/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              ><strong>Berliner Hochschule für Technik (BHT)</strong></NuxtLink
-            ><br />
+              ><strong>Berliner Hochschule für Technik (BHT)</strong>
+            </NuxtLink>
+            <br />
             <NuxtLink
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
               >Poststelle, FB7, HROB, Prof.Boblan
+            </NuxtLink>
             ><br />
             <NuxtLink
               to="https://www.bht-berlin.de/lageplan"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Luxemburger Str. 10</NuxtLink
+              >Luxemburger Str. 10
+            </NuxtLink>
             ><br />
             13353 Berlin
           </p>
@@ -53,30 +56,30 @@
               to="https://www.bht-berlin.de/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              ><strong>Berliner Hochschule für Technik (BHT)</strong></NuxtLink
-            >
+              ><strong>Berliner Hochschule für Technik (BHT)</strong>
+            </NuxtLink>
             <br />
             <NuxtLink
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Fachbereich VII Elektrotechnik</NuxtLink
-            >
+              >Fachbereich VII Elektrotechnik
+            </NuxtLink>
             <br />
             <NuxtLink
               to="https://www.bht-berlin.de/b-hrob"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Studiengang Humanoide Robotik (HROB)</NuxtLink
-            >
+              >Studiengang Humanoide Robotik (HROB)
+            </NuxtLink>
             <br />
             Compliant Robotics Lab (CoRoLab)<br />
             <NuxtLink
               to="https://www.bht-berlin.de/2191"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Kurfürstenstrasse 141</NuxtLink
-            >
+              >Kurfürstenstrasse 141
+            </NuxtLink>
             <br />
             10785 Berlin
           </p>
@@ -86,31 +89,32 @@
               to="https://www.bht-berlin.de/people/detail/1720/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >general directory</NuxtLink
-            >
+              >general directory
+            </NuxtLink>
             Homepage:
             <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >personally</NuxtLink
-            >
+              >personally
+            </NuxtLink>
             <br />
             Mail:
             <NuxtLink
               to="mailto:ivo.boblan@bht-berlin.de"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >ivo.boblan(at)bht-berlin.de</NuxtLink
-            >
+              >ivo.boblan(at)bht-berlin.de
+            </NuxtLink>
             <br />
             Phone:
             <NuxtLink
               to="tel:+493045047852"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >030 4504 7852</NuxtLink
-            ><br />
+              >030 4504 7852
+            </NuxtLink>
+            <br />
             Room: front building, floor 3, room K._030.023
           </p>
           <!-- Map -->
