@@ -66,16 +66,14 @@
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Fachbereich VII Elektrotechnik
+              >Fachbereich VII, 
             </NuxtLink>
-            <br />
             <NuxtLink
               to="https://www.bht-berlin.de/b-hrob"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Studiengang Humanoide Robotik (HROB)
+              >Humanoide Robotik (HROB), 
             </NuxtLink>
-            <br />
             Compliant Robotics Lab (CoRoLab)<br />
             <NuxtLink
               to="https://www.bht-berlin.de/126"
