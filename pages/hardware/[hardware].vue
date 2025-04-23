@@ -22,7 +22,6 @@
   
   async function fetchData() {
     data.value = await queryContent(route.fullPath).findOne();
-    console.log(data.value);
   }
 
   await fetchData();

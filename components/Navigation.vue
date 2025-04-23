@@ -102,5 +102,4 @@ const pages = [
 const mobileMenuOpen = ref(false);
 
 const currentRoute = computed(() => router.path);
-console.log(currentRoute.value);
 </script>

@@ -1,0 +1,5 @@
+---
+title: "Available hardware in our lab"
+description: |
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto consectetur nobis eaque explicabo harum voluptatibus nihil? Doloremque, ipsam tempora. Deleniti unde nesciunt tenetur dolore excepturi facilis veniam asperiores maiores iure porro. Nulla, repudiandae nobis. Recusandae dolorem consectetur alias deserunt aliquid fugiat nostrum cupiditate, odit at corrupti quo. Aliquid, consequuntur! Maiores minima fugit repellendus neque perferendis eaque officia quisquam excepturi voluptatem commodi quod accusantium aut quam labore, distinctio sapiente vitae exercitationem qui nesciunt? Soluta dolor laboriosam praesentium eveniet fuga culpa nam. Laboriosam aspernatur perferendis voluptates, velit id molestiae quis! Repellat quo dolorem sit veritatis magnam placeat omnis odit voluptas consequuntur!
+---

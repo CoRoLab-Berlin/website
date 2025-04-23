@@ -1,7 +1,7 @@
 <template>
-  <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
+  <div v-if="indexContent" class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <PageHeading :title="title" :description="description" />
+      <PageHeading :title="indexContent.title" :description="indexContent.description" />
       <div
         class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
       >
@@ -40,19 +40,25 @@
 <script setup lang="ts">
 import { ArrowRightIcon } from "@heroicons/vue/16/solid";
 
-const title = "Current and past projects in our lab";
-const description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto consectetur nobis eaque explicabo harum voluptatibus nihil? Doloremque, ipsam tempora. Deleniti unde nesciunt tenetur dolore excepturi facilis veniam asperiores maiores iure porro. Nulla, repudiandae nobis. Recusandae dolorem consectetur alias deserunt aliquid fugiat nostrum cupiditate, odit at corrupti quo. Aliquid, consequuntur! Maiores minima fugit repellendus neque perferendis eaque officia quisquam excepturi voluptatem commodi quod accusantium aut quam labore, distinctio sapiente vitae exercitationem qui nesciunt? Soluta dolor laboriosam praesentium eveniet fuga culpa nam. Laboriosam aspernatur perferendis voluptates, velit id molestiae quis! Repellat quo dolorem sit veritatis magnam placeat omnis odit voluptas consequuntur!"
+// 1. Load all project content (including _index.md)
+const { data: allProjects } = await useAsyncData("projects-all", () =>
+  queryContent("/projects").find()
+);
 
-const { data: projects } = await useAsyncData(() => {
-  return queryContent("/projects")
-    .find()
-    .then((projects) => {
-      return projects.sort((a, b) => {
-        // Sort by start year
-        const startYearA = parseInt(a.timespan.split(" - ")[0]);
-        const startYearB = parseInt(b.timespan.split(" - ")[0]);
-        return startYearB - startYearA;
-      });
-    });
-});
+// 2. Get page heading info from _index.md
+const indexContent = computed(() =>
+  allProjects.value?.find(item => item._file === "projects/_index.md") ?? null
+);
+
+// 3. Filter out _index.md and sort projects by start year
+const projects = computed(() =>
+  allProjects.value
+    ?.filter(item => item._file !== "projects/_index.md")
+    .sort((a, b) => {
+      // Sort by start year DESC (most recent first)
+      const startYearA = parseInt(a.timespan?.split(" - ")[0] || "0", 10);
+      const startYearB = parseInt(b.timespan?.split(" - ")[0] || "0", 10);
+      return startYearB - startYearA;
+    }) ?? []
+);
 </script>

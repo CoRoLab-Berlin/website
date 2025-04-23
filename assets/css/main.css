@@ -4,28 +4,28 @@
 
 @font-face {
   font-family: "BHTCaseMicro";
-  src: url("/corolab_website/fonts/BHTCaseMicro-Regular.otf") format("opentype");
+  src: url("/website/fonts/BHTCaseMicro-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "BHTCaseMicro";
-  src: url("/corolab_website/fonts/BHTCaseMicro-Bold.otf") format("opentype");
+  src: url("/website/fonts/BHTCaseMicro-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "BHTCaseMicro";
-  src: url("/corolab_website/fonts/BHTCaseMicro-Italic.otf") format("opentype");
+  src: url("/website/fonts/BHTCaseMicro-Italic.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "BHTCaseMicro";
-  src: url("/corolab_website/fonts/BHTCaseMicro-BoldItalic.otf") format("opentype");
+  src: url("/website/fonts/BHTCaseMicro-BoldItalic.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }

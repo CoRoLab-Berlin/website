@@ -1,15 +1,27 @@
 <template>
-  <div>
+  <div v-if="indexContent">
     <section>
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <PageHeading :title="title" :description="description" />
+        <PageHeading
+          :title="indexContent.title"
+          :description="indexContent.description"
+        />
         <div class="mb-6 lg:mb-16 max-w-4xl mx-auto">
-          <div v-for="(role, role_index) in roles" :key="role_index" class="flex flex-col space-y-4 mt-10">
-            <h2 class="text-xl font-bold tracking-tight">
+          <div
+            v-for="(role, role_index) in roles"
+            :key="role_index"
+            class="flex flex-col space-y-4 mt-10"
+          >
+            <h2
+              v-if="
+                teamMembers?.filter((person) => person.role === role).length > 0
+              "
+              class="text-xl font-bold tracking-tight"
+            >
               {{ role }}
             </h2>
             <div
-              v-for="(person, person_index) in data?.filter(
+              v-for="(person, person_index) in teamMembers?.filter(
                 (person) => person.role === role
               )"
               :key="person_index"
@@ -103,18 +115,26 @@
 </template>
 
 <script setup lang="ts">
-const title = "Our Team";
-const description =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio modi labore delectus porro temporibus cupiditate voluptate inventore omnis alias excepturi?";
+const { data: allTeam } = await useAsyncData("team-members", () =>
+  queryContent("/team").find()
+);
 
-const roles = ["Head of Lab", "Research Assistant", "Research Assistant (extern)"]; //, "Student Assistants"
+const indexContent = computed(
+  () =>
+    allTeam.value?.find((person) => person._file === "team/_index.md") ?? null
+);
 
-const { data } = await useAsyncData(async () => {
-  const teamData = await queryContent("/team").find();
-  return teamData.sort((a, b) => {
-    const lastNameA = a.name.split(" ").pop().toLowerCase();
-    const lastNameB = b.name.split(" ").pop().toLowerCase();
-    return lastNameA.localeCompare(lastNameB);
-  });
+const teamMembers = computed(() => {
+  return (
+    allTeam.value
+      ?.filter((person) => person._file !== "team/_index.md")
+      .sort((a, b) => {
+        const lastNameA = a.name.split(" ").pop().toLowerCase();
+        const lastNameB = b.name.split(" ").pop().toLowerCase();
+        return lastNameA.localeCompare(lastNameB);
+      }) ?? []
+  );
 });
+
+const roles = computed(() => indexContent.value?.roles ?? []);
 </script>
