@@ -88,7 +88,7 @@ Details about the robot go here…
 ## Assets
 
 - Images go in `/public/images/` (organize in subfolders if you want)
-- Reference them in markdown as `/images/yourimage.jpg`
+- Reference them in markdown as `images/yourimage.jpg`
 - PDFs go in `/public/pdfs/`
 
 
