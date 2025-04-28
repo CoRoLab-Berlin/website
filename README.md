@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- **Node.js** (latest version)
+- **[Node.js](https://nodejs.org/en/download)** (latest version)
 - **pnpm** package manager (`npm install -g pnpm`)
 - **Git**
 
