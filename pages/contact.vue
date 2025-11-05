@@ -85,7 +85,7 @@
               to="https://www.bht-berlin.de/people/detail/1720/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >general directory,
+              >BHT general directory,
             </NuxtLink>
             <NuxtLink
               to="https://prof.bht-berlin.de/boblan/"
