@@ -12,7 +12,7 @@
         class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-x-16"
       >
         <!-- Postal Address -->
-        <div>
+<!--        <div>
           <h2 class="text-xl font-semibold mb-4">Postal Address</h2>
           <p class="text-gray-700">
             <NuxtLink
@@ -44,7 +44,8 @@
             />
           </div>
         </div>
-
+-->
+      
         <!-- Teaching & Research Address -->
         <div>
           <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
