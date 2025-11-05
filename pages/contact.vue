@@ -7,7 +7,7 @@
           Contact Information
       </h2>
       <!-- Contact Section -->
-    
+      <div>
         <!-- Teaching & Research Address -->
         <div>
           <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
@@ -83,7 +83,7 @@
             />
           </div>
         </div>
-      
+      </div>
     </div>
   </div>
 </template>
