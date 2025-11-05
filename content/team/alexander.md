@@ -1,6 +1,6 @@
 ---
 name: "Alexander Pawluchin"
 role: "Research Assistant"
-description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, ullam."
+description: "Analytical and data-driven modeling and control of pneumatic robot systems."
 image: "images/team/image.png"
 ---
