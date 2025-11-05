@@ -35,7 +35,7 @@
             <br /><br /><br /><br /><br />
             <br />
           </p>
-          <!-- Map -->
+ 
           <div class="mt-6">
             <NuxtImg
               src="images/Beuth_Lageplan_Campus.png"
