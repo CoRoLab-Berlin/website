@@ -1,6 +1,6 @@
 ---
 title: Digit
-order: 0
+order: 1
 image: images/hardware/digit.jpg
 
 ---
