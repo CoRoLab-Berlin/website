@@ -1,6 +1,6 @@
 ---
 title: pExo
-order: 2
+order: 3
 image: images/hardware/exoskeleton_small.jpg
 description: pExo is an active exoskeleton for overhead work driven by fluidic muscles.
 ---
