@@ -1,5 +1,5 @@
 ---
-title: Exoskeleton
+title: pExo
 order: 2
 image: images/hardware/exoskeleton_small.jpg
 description: pExo is an active exoskeleton for overhead work, powered by fluidic muscles (PAM).
