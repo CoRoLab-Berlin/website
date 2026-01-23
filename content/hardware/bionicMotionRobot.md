@@ -1,6 +1,6 @@
 ---
 title: BionicMotionRobot
-order: 4
+order: 5
 image: images/hardware/bionicMotionRobot.jpg
 description: BionicMotionRobot is a Festo AG funded robot and was developed in collaboration with Prof. Dieter Mankau, the design office and the working group of Prof. Dr.-Ing. Ivo W. Boblan.
 ---
