@@ -2,7 +2,7 @@
 title: ZAR5
 order: 7
 image: images/hardware/zar5.jpg
-description: ZAR5 is a Festo AG funded anthropomorphic robot torso completely driven by fluidic muscles.
+description: ZAR5 is used for tasks focusing on pneumatic control in humanoid robots with safe human-robot interaction.
 ---
 
 ZAR5 (2006, [pdf info](https://www.festo.com/net/de_corp/SupportPortal/Downloads/146929/42092/Humanoid_en.pdf), [press release](https://www.festo.com/net/de_de/SupportPortal/Details/151002/PressArticle.aspx), [video](https://youtu.be/pgKBWkY3Qks)) is a Festo AG funded anthropomorphic robot torso completely driven by fluidic muscles.
