@@ -1,6 +1,6 @@
 ---
 title: Also involved
-order: 7
+order: 8
 image: images/hardware/cyberKite.png
 description: Lorem ipsum dolor sit amet
 ---
