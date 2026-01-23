@@ -2,7 +2,7 @@
 title: Also involved
 order: 8
 image: images/hardware/cyberKite.png
-description: Lorem ipsum dolor sit amet
+description: Several bionic robotic systems...
 ---
 
 - **CyberKite** (2009-2011, [pdf info](https://www.festo.com/net/de_group/SupportPortal/Downloads/146925), [video](https://www.youtube.com/watch?v=nhfFnEQM1aU)) is a Festo AG funded kite system with cybernetic control unit and future-oriented mechatronic system that uses intelligent control technology to tame the forces of nature. Ivo Boblan was part of the control team.
