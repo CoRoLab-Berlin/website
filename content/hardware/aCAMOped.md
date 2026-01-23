@@ -1,6 +1,6 @@
 ---
 title: aCAMOped
-order: 3
+order: 4
 image: images/hardware/camOped.jpe
 ---
 
