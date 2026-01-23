@@ -1,5 +1,5 @@
 ---
 title: "Available hardware in our lab"
 description: |
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, iusto consectetur nobis eaque explicabo harum voluptatibus nihil? Doloremque, ipsam tempora. Deleniti unde nesciunt tenetur dolore excepturi facilis veniam asperiores maiores iure porro...
+   The CoRoLab offers a wide range of robotic systems for research in the fields of Bionik, pneumatic control strategies, dynamic walking, and human-robot interaction. Below is an overview of the most important robotic systems (newest first).
 ---
