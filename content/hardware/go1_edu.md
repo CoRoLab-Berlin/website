@@ -1,6 +1,6 @@
 ---
 title: Go1 Edu
-order: 1
+order: 2
 image: images/hardware/go1.jpg
 
 ---
