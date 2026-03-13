@@ -3,7 +3,7 @@ title: ExO-Eval
 description: The BackBooster passive exoskeleton is optimized and a meaningful evaluation process is developed and verified.
 timespan: 2023 - 2025
 status: Active
-images: ["https://placehold.co/600x400"]
+images: ["[https://placehold.co/600x400](https://www.ifaf-berlin.de/media/resized/7S_5204-1432x800-c-center.jpg)"]
 ---
 
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[BackBooster-Exoskelett - Optimierung und Evaluation](https://www.ifaf-berlin.de/projekte/exo-eval/)" (ExO-Eval) is a joint project of:
