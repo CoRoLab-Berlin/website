@@ -3,7 +3,7 @@ title: Balancer
 description: Development of a sensor-equipped servo-active balancer with a soft human-controlled servo mechanism.
 timespan: 2018 - 2020
 status: Completed
-images: [images/hardware/balancer.jpg](https://projekt.bht-berlin.de/fileadmin/_processed_/e/5/csm_14.servo-aktiver_Balancer_c75fdcd2d6.jpg)
+images: ["https://projekt.bht-berlin.de/fileadmin/_processed_/e/5/csm_14.servo-aktiver_Balancer_c75fdcd2d6.jpg"]
 ---
 
 The AIF funded project "Balancer" is a joint project of:
