@@ -16,7 +16,7 @@ const footerLinks = [
   },
   {
     title: "G. Scholar",
-    url: "http://scholar.google.de/scholar?hl=de&q=boblan&btnG=&lr=",
+    url: "https://scholar.google.de/citations?hl=de&tzom=-60&user=UwZXz30AAAAJ&view_op=list_works&sortby=pubdate",
   },
   {
     title: "BIOKON",
