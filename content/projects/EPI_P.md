@@ -3,7 +3,7 @@ title: EPI-P
 description: The functional models Knee and Bending Exo (EPI) are structurally optimized and adapted to the areas of application.
 timespan: 2021 - 2022
 status: Funding expires in September 2022
-images: public/images/hardware/epiP.jpg
+images: ["https://www.bht-berlin.de/fileadmin/oe/forschung/Forschung_Bilder_neu/Forschungsprojekte/EPI-P/EPI-P__c__BioRobLab_Screenshot-vimeo.com-509704304.jpg"]
 ---
 
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[Exoskelette nach dem Prinzip elastischer Insektenlokomotion - Prototyping](https://www.ifaf-berlin.de/projekte/epi-p/)" (EPI-P) is a joint project of:
