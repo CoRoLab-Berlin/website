@@ -10,7 +10,7 @@ Evolutionary Algorithms (EA) are a class of stochastic, metaheuristic optimizati
 Methods, algorithms and tools for evolutionary computation especially evolution strategies in system identification and control:
 
 - Evolutionary control,
-- Evolution strategie,
+- Evolution strategie (ES),
 - Parameter optimization,
 - System identification,
 - Simulation and
