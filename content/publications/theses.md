@@ -26,19 +26,19 @@ title: "Theses"
 
 7. **Konz, B.** (2015): Robotic middleware approaches for heterogeneous modular robotic systems and hard real-time applications. Master Theses, field Industrial Automation Technology, Technical University Berlin and Department of Process Automation and Robotics of the Fraunhofer IPK Berlin, 2015
 
-8. **Li, N.** (2011): Theoretische Untersuchungen von verschiedenen Regelungskonzepten an einem pneumatisch betriebenen Tripod. Master Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2011 | [PDF](/pdfs/li-2011-masterarbeit.pdf){target="_blank" download="li-2011-masterarbeit.pdf"}
+8. **Li, N.** (2011): Theoretische Untersuchungen von verschiedenen Regelungskonzepten an einem pneumatisch betriebenen Tripod. Master Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2011 | [PDF](/pdfs/li-2011-masterarbeit.pdf)
 
-9. **Feng, H.** (2011): Entwicklung, Optimierung des Modells eines muskelbetriebenen tripedalen Segmentes eines Roboterrüssels in Matlab/SIMULINK. Diploma Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2011 | [PDF](/pdfs/feng-2011-diplarb.pdf){target="_blank" download="feng-2011-diplarb.pdf"}
+9. **Feng, H.** (2011): Entwicklung, Optimierung des Modells eines muskelbetriebenen tripedalen Segmentes eines Roboterrüssels in Matlab/SIMULINK. Diploma Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2011 | [PDF](/pdfs/feng-2011-diplarb.pdf)
 
-10. **Drozd, M.** (2010): Entwicklung und Verifikation eines allgemeinen kinematischen Modells für kontinuierliche Roboterarme in Matlab/C++. Diploma Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2010 | [PDF](/pdfs/drozd-2010-diplarb.pdf){target="_blank" download="drozd-2010-diplarb.pdf"}
+10. **Drozd, M.** (2010): Entwicklung und Verifikation eines allgemeinen kinematischen Modells für kontinuierliche Roboterarme in Matlab/C++. Diploma Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, 2010 | [PDF](/pdfs/drozd-2010-diplarb.pdf)
 
-11. **Renjewski, D.** (2007): Echoabbildung am Beispiel der Kantenerkennung nach biologischem Vorbild. Diploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2007 | [PDF](/pdfs/renjewski-2007-diplomarbeit.pdf){target="_blank" download="renjewski-2007-diplomarbeit.pdf"}
+11. **Renjewski, D.** (2007): Echoabbildung am Beispiel der Kantenerkennung nach biologischem Vorbild. Diploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2007 | [PDF](/pdfs/renjewski-2007-diplomarbeit.pdf)
 
-12. **Maschuw, J.P.** (2005): Modellierung und Regelung pneumatischer Muskeln. Diploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2005 | [PDF](/pdfs/maschuw-2005-diplomarbeit.pdf){target="_blank" download="maschuw-2005-diplomarbeit.pdf"}
+12. **Maschuw, J.P.** (2005): Modellierung und Regelung pneumatischer Muskeln. Diploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2005 | [PDF](/pdfs/maschuw-2005-diplomarbeit.pdf)
 
 13. **Schulz, A.** (2004): Entwicklung und Evaluierung eines Versuchsaufbaus für die Demonstration eines künstlichen Muskels unter Verwendung einer Microcontrollersteuerung. Diploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2004
 
-14. **Boblan, I.** (1996): Entwicklungsautomatisierung von Regelungssoftware mittels Softwaregenerator. Diploma Theses, Technical University Berlin, 1996 | [PDF](/pdfs/boblan-1996-diplarb.pdf){target="_blank" download="boblan-1996-diplarb.pdf"}
+14. **Boblan, I.** (1996): Entwicklungsautomatisierung von Regelungssoftware mittels Softwaregenerator. Diploma Theses, Technical University Berlin, 1996 | [PDF](/pdfs/boblan-1996-diplarb.pdf)
 
 ## Bachelor/Prediploma Theses
 
@@ -58,14 +58,14 @@ title: "Theses"
 
 8. **Lange, F.** (2014): Untersuchung an einem mit pneumatischen Muskeln angetriebenen, antagonistischen Hebelarm zur Konzeptionierung einer Schnittstelle für eine nachgiebige Interaktion zwischen Mensch und Technik. Bachelor Theses, field Control Systems, faculty IV Electrical Engineering and Computer Science, Technical University Berlin, Jun. 25th, 2014
 
-9. **Bergmann, A., Scholz, S.** (2005): Experimentelle Bestimmung des Verhaltens pneumatischer Muskeln. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2005 | [PDF](/pdfs/bergmann-2005-studarb.pdf){target="_blank" download="bergmann-2005-studarb.pdf"}
+9. **Bergmann, A., Scholz, S.** (2005): Experimentelle Bestimmung des Verhaltens pneumatischer Muskeln. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2005 | [PDF](/pdfs/bergmann-2005-studarb.pdf)
 
-10. **Hilse, M., Gutbrod, Ch.** (2003): Untersuchung des statischen und dynamischen Verhaltens Pneumatischer Muskeln - Konstruktion eines neuen Versuchsstandes. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2003 | [PDF](/pdfs/hilse-2003-studarb.pdf){target="_blank" download="hilse-2003-studarb.pdf"}
+10. **Hilse, M., Gutbrod, Ch.** (2003): Untersuchung des statischen und dynamischen Verhaltens Pneumatischer Muskeln - Konstruktion eines neuen Versuchsstandes. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2003 | [PDF](/pdfs/hilse-2003-studarb.pdf)
 
-11. **Jahnz, T.** (2003): Konstruktion einer automatischen Aufrolleinrichtung für ein pneumatisch betriebenes Jojo. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2003 | [PDF](/pdfs/jahnz-2003-studarb.pdf){target="_blank" download="jahnz-2003-studarb.pdf"}
+11. **Jahnz, T.** (2003): Konstruktion einer automatischen Aufrolleinrichtung für ein pneumatisch betriebenes Jojo. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2003 | [PDF](/pdfs/jahnz-2003-studarb.pdf)
 
-12. **Engelhardt, D.** (2001): Messung, Modellierung und Simulation eines antagonistischen Muskelpaars. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2001 | [PDF](/pdfs/engelhardt-2001-studarb.pdf){target="_blank" download="engelhardt-2001-studarb.pdf"}
+12. **Engelhardt, D.** (2001): Messung, Modellierung und Simulation eines antagonistischen Muskelpaars. Bachelor Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2001 | [PDF](/pdfs/engelhardt-2001-studarb.pdf)
 
-13. **Kühnlenz, K.** (2001): Entwicklung eines Versuchsaufbaus für die Demonstration eines pneumatischen Aktuators unter Verwendung einer Microcontrollersteuerung. Prediploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2001 | [PDF](/pdfs/kuehnlenz-2001-studarb.pdf){target="_blank" download="kuehnlenz-2001-studarb.pdf"}
+13. **Kühnlenz, K.** (2001): Entwicklung eines Versuchsaufbaus für die Demonstration eines pneumatischen Aktuators unter Verwendung einer Microcontrollersteuerung. Prediploma Theses, field Bionik and Evolution Strategy, faculty III Process Sciences, Technical University Berlin, 2001 | [PDF](/pdfs/kuehnlenz-2001-studarb.pdf)
 
-14. **Boblan, I.** (1995): Vergleichende Untersuchungen von Liniensegmentierungsverfahren insbesondere der Hough-Transformation und dem Polyline Segmentierungs-Algorithmus. Prediploma Theses, Technical University Berlin, 1995 | [PDF](/pdfs/boblan-1995-studarb.pdf){target="_blank" download="boblan-1995-studarb.pdf"}
+14. **Boblan, I.** (1995): Vergleichende Untersuchungen von Liniensegmentierungsverfahren insbesondere der Hough-Transformation und dem Polyline Segmentierungs-Algorithmus. Prediploma Theses, Technical University Berlin, 1995 | [PDF](/pdfs/boblan-1995-studarb.pdf)
