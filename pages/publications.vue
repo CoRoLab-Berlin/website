@@ -11,14 +11,14 @@
           CONFERENCE PAPER
         </div>
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 p-4 hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 1 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 1"
         >
           JOURNALS
         </div>
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 p-4 hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 2 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 2"
         >
