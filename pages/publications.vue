@@ -2,7 +2,7 @@
   <div v-if="indexContent" class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <PageHeading :title="indexContent.title" :description="indexContent.description" />
-      <div class="w-full columns-3 gap-0 mt-10">
+      <div class="w-full columns-4 gap-0 mt-10">
         <div
           class="text-center text-lg border-2 border-bhtgray-300 border-r-bhtyellow-600 p-4 rounded-l-2xl hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 0 ? 'border-bhtyellow-600' : ''"
@@ -11,11 +11,18 @@
           CONFERENCE PAPER
         </div>
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 rounded-r-2xl hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 1 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 1"
         >
           JOURNALS
+        </div>
+        <div
+          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 hover:bg-bhtgray-500 cursor-pointer"
+          :class="activeList == 1 ? 'border-bhtyellow-600' : ''"
+          @click="activeList = 2"
+        >
+          REPORTS
         </div>
         <div
           class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 rounded-r-2xl hover:bg-bhtgray-500 cursor-pointer"
