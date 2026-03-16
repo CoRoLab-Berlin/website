@@ -8,7 +8,7 @@
           :class="activeList == 0 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 0"
         >
-          PAPER
+          CONFERENCE PAPER
         </div>
         <div
           class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 rounded-r-2xl hover:bg-bhtgray-500 cursor-pointer"
