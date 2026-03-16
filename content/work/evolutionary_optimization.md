@@ -1,7 +1,7 @@
 ---
 title: "Evolutionary Optimization"
 description: "Evolutionary Algorithms (EA) are stochastic, metaheuristic optimization methods inspired by principles of biological evolution."
-image: "images/evolutionStrategie.jpg"
+image: "images/evolutionStrategie.png"
 index: 5
 ---
 
