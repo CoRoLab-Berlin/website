@@ -20,18 +20,18 @@ title: "Conference Papers"
 
 9. **Sagheby S.H., Tawackolian K., Boblan I., Schmid M., Kriegel M.** (2014): Bio-Net: Bionik in thermischen Verteilnetzen. In _Tagung, Deutscher Kälte- und Klimatechnischer Verein e.V._, Düsseldorf, Germany, 2014, ISBN 978-3-932715-50-1.
 
-10. **Boblan I., Schulz A., Tuchscherer A., Perfilov I., Bertrand B.** (2013): A Compliant Lightweight Universal Joint Cascadable to a Multi-joint Kinematics - Tripedale Alternanzkaskade TAK. In _6th Int. Symp. on Adaptive Motion of Animal and Machines, AMAM 2013_, Darmstadt, Germany, Mar. 11-14, 2013, p. 4. [PDF](/pdfs/boblan-2013-AMAM2013.pdf){target="_blank" download="boblan-2013-AMAM2013.pdf"}
+10. **Boblan I., Schulz A., Tuchscherer A., Perfilov I., Bertrand B.** (2013): A Compliant Lightweight Universal Joint Cascadable to a Multi-joint Kinematics - Tripedale Alternanzkaskade TAK. In _6th Int. Symp. on Adaptive Motion of Animal and Machines, AMAM 2013_, Darmstadt, Germany, Mar. 11-14, 2013, p. 4. [PDF](/pdfs/boblan-2013-AMAM2013.pdf)
 
-11. **Schulz A., Boblan I., Bannasch R., Miersch L., Schwenk H.** (2010): Der Humanoide Muskelroboter Torso ZAR5 - Elektronik- und Softwareentwicklung. In _Int. Forum Mechatronik 2010_, Winterthur, Schweiz, Nov. 3-4, 2010, p. 9. [PDF](/pdfs/schulz-2010-mechatronik-forum.pdf){target="_blank" download="schulz-2010-mechatronik-forum.pdf"}
+11. **Schulz A., Boblan I., Bannasch R., Miersch L., Schwenk H.** (2010): Der Humanoide Muskelroboter Torso ZAR5 - Elektronik- und Softwareentwicklung. In _Int. Forum Mechatronik 2010_, Winterthur, Schweiz, Nov. 3-4, 2010, p. 9. [PDF](/pdfs/schulz-2010-mechatronik-forum.pdf)
 
-12. **Boblan I., Schulz A.** (2010): A Humanoid Muscle Robot Torso with Biologically Inspired Construction. In _41st Int. Symp. on Robotics - ISR 2010 and 6th German Conf. on Robotics - ROBOTIK_, VDE-Verlag, June 7-9, 2010, p. 934-939, ISBN 978-3-8007-3273-9. [DOI](https://ieeexplore.ieee.org/abstract/document/5756900) | [PDF](/pdfs/boblan-2010-ISR.pdf){target="_blank" download="boblan-2010-ISR.pdf"}
+12. **Boblan I., Schulz A.** (2010): A Humanoid Muscle Robot Torso with Biologically Inspired Construction. In _41st Int. Symp. on Robotics - ISR 2010 and 6th German Conf. on Robotics - ROBOTIK_, VDE-Verlag, June 7-9, 2010, p. 934-939, ISBN 978-3-8007-3273-9. [DOI](https://ieeexplore.ieee.org/abstract/document/5756900) | [PDF](/pdfs/boblan-2010-ISR.pdf)
 
-13. **Boblan I., Bannasch R., Schulz A., Schwenk H.** (2006): A human-like robot torso with fluidic muscles: Biologically inspired engineering. In _3rd Bremer Bionik Kongress_, Bremen, Germany, Oct. 27-28, 2006, p. 7, ISBN 978-3-00-022050-0. [PDF](/pdfs/boblan-2006-bionik-kongress-bremen.pdf){target="_blank" download="boblan-2006-bionik-kongress-bremen"}
+13. **Boblan I., Bannasch R., Schulz A., Schwenk H.** (2006): A human-like robot torso with fluidic muscles: Biologically inspired engineering. In _3rd Bremer Bionik Kongress_, Bremen, Germany, Oct. 27-28, 2006, p. 7, ISBN 978-3-00-022050-0. [PDF](/pdfs/boblan-2006-bionik-kongress-bremen.pdf)
 
-14. **Boblan I., Bannasch R., Maschuw J., Schulz A., Schwenk H.** (2005): A Human-like Robot Hand and Arm with Fluidic Muscles: Modelling of a Muscle Driven Joint with an Antagonistic Setup. In _3rd Int. Symp. on Adaptive Motion in Animals and Machines, AMAM 2005_, Technical University Ilmenau, Germany, Sep. 25-30, 2005, p. 7, ISBN 3-938843-03-9. [PDF](/pdfs/boblan-2005-AMAM.pdf){target="_blank" download="boblan-2005-AMAM.pdf"}
+14. **Boblan I., Bannasch R., Maschuw J., Schulz A., Schwenk H.** (2005): A Human-like Robot Hand and Arm with Fluidic Muscles: Modelling of a Muscle Driven Joint with an Antagonistic Setup. In _3rd Int. Symp. on Adaptive Motion in Animals and Machines, AMAM 2005_, Technical University Ilmenau, Germany, Sep. 25-30, 2005, p. 7, ISBN 3-938843-03-9. [PDF](/pdfs/boblan-2005-AMAM.pdf)
 
 15. **Boblan I., Bannasch R., Schwenk H., Pritzel F., Miertsch L., Schulz A.** (2004): ZAR4 - Ein Humanoider Roboterarm und 5-finger Hand mit fluidischen Muskeln: Biologienahe Konstruktion und Funktionalität. In _2nd Bremer Bionik Kongress_, Bremen, Germany, Oct. 29-30, 2004.
 
-16. **Santibanez Koref I., Boblan I., Lohnert F., Schütte A.** (2002): Causality and Design of Dynamical Systems. In _Evolutionary Methods for Design, Optimisation and Control_, Giannakoglou K. et al.(Eds.), CIMNE, Barcelona, Spain, 2002, p. 229-234. [PDF](/pdfs/boblan-2001-eurogen.pdf){target="_blank" download="boblan-2001-eurogen"}
+16. **Santibanez Koref I., Boblan I., Lohnert F., Schütte A.** (2002): Causality and Design of Dynamical Systems. In _Evolutionary Methods for Design, Optimisation and Control_, Giannakoglou K. et al.(Eds.), CIMNE, Barcelona, Spain, 2002, p. 229-234. [PDF](/pdfs/boblan-2001-eurogen.pdf)
 
 17. **Boblan I., Santibanez Koref I.** (2002): SCADS - Identifikation und Strukturdesign von dynamischen Systemen. In _GVC/DECHEMA-Jahrestagung_, Wiesbaden, 2002.
