@@ -4,7 +4,7 @@
       <PageHeading :title="indexContent.title" :description="indexContent.description" />
       <div class="w-full columns-4 gap-0 mt-10">
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 rounded-l-2xl hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 p-4 rounded-l-2xl hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 0 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 0"
         >
