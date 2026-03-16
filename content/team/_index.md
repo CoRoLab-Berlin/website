@@ -4,6 +4,6 @@ description: |
   Never change a winning team!
 roles:
   - "Head of Lab"
-  - "PhD"
-  - "Former PhD"
+  - "Research Assistant (PhD)"
+  - "Former Research Assistant"
 ---
