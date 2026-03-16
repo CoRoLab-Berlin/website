@@ -11,7 +11,7 @@
           CONF.PAPER
         </div>
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-bhtyellow-600 p-4 hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 p-4 hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 1 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 1"
         >
@@ -25,7 +25,7 @@
           REPORT
         </div>
         <div
-          class="text-center text-lg border-2 border-bhtgray-300 border-l-0 p-4 rounded-r-2xl hover:bg-bhtgray-500 cursor-pointer"
+          class="text-center text-lg border-2 border-bhtgray-300 p-4 rounded-r-2xl hover:bg-bhtgray-500 cursor-pointer"
           :class="activeList == 3 ? 'border-bhtyellow-600' : ''"
           @click="activeList = 3"
         >
