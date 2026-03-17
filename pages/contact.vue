@@ -79,7 +79,7 @@
             <NuxtImg
               src="images/Beuth_Lageplan_Kurfuerstenstrasse.png"
               alt="Research Map"
-              class="w-full rounded-2xl shadow aspect-[5/3]"
+              class="max-w-screen-xl rounded-2xl shadow aspect-[5/3]"
             />
           </div>
         </div>
