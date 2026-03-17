@@ -2,9 +2,7 @@
   <div v-if="indexContent" class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <PageHeading :title="indexContent.title" :description="indexContent.description" />
-      <div
-        class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none"
-      >
+      <div class="mx-auto mt-10 sm:mt-16 lg:mx-0 lg:max-w-none">
         <div class="grid md:grid-cols-3 gap-6">
           <div
             v-for="(work, index) in workItems"
