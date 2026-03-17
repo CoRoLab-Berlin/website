@@ -14,9 +14,9 @@
               class="w-full sm:aspect-[2/1] lg:aspect-[3/2] rounded-t-lg mb-4 object-cover"
             />
             <div class="p-5"><a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-                  {{ hardware.title }}
-                </h5></a>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                {{ hardware.title }}
+              </h5></a>
               <p class="mb-3 font-normal text-gray-700">
                 {{ hardware.description }}
               </p>
