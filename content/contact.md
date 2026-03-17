@@ -1,5 +1,6 @@
 ---
 title: "Contact Information"
+
 teaching:
   title: "Address Teaching"
   address:
@@ -20,9 +21,9 @@ teaching:
     label: "ivo.boblan(at)bht-berlin.de"
     link: "mailto:ivo.boblan@bht-berlin.de"
   phone:
-    label: "030 4504 2369"
-    link: "tel:+493045042369"
-  room: "House Gauß, floor 1, room B 140"
+    label: "030 4504 7852"
+    link: "tel:+493045047852"
+  room: "House Kurfürstenstraße, floor 3, room K_.30.023"
   map:
     src: "/images/Beuth_Lageplan_Campus.png"
     alt: "Teaching Map"
