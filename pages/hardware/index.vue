@@ -15,9 +15,7 @@
             />
             <div class="p-5">
               <a href="#">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900"
-                >
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                   {{ hardware.title }}
                 </h5>
               </a>
