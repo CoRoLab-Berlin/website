@@ -17,6 +17,9 @@ images:
   - "/images/zar5-GreifPositionen_4.png"
   - "/images/zar5-HM06-Merkel-05_cr.png"
   - "/images/zar5-HM06-Merkel-07_cr.png"
+  - "/images/hardware/bionicMotionRobot.jpg"
+  - "/images/hardware/go1.jpg"
+  - "/images/hardware/digit.jpg
 logos:
   - "/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png"
   - "/images/logos/Logo__Biokon.svg"
