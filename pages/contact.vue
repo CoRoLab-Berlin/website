@@ -5,7 +5,8 @@
       <div class="mb-6 lg:mb-16 max-w-4xl mx-auto">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Test
-        </div>
+        </h2>
+      </div>
 
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Contact Information
