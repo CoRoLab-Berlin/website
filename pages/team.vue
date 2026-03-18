@@ -41,6 +41,7 @@
                 <p class="mt-3 mb-4 font-light text-gray-500">
                   {{ person.description }}
                 </p>
+                
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
                     <a href="#" class="text-gray-500 hover:text-gray-900">
@@ -58,6 +59,7 @@
                       </svg>
                     </a>
                   </li>
+                  
                   <li>
                     <a href="#" class="text-gray-500 hover:text-gray-900">
                       <svg
@@ -72,6 +74,7 @@
                       </svg>
                     </a>
                   </li>
+                  
                   <li>
                     <a href="#" class="text-gray-500 hover:text-gray-900">
                       <svg
@@ -88,6 +91,7 @@
                       </svg>
                     </a>
                   </li>
+                  
                   <li>
                     <a href="#" class="text-gray-500 hover:text-gray-900">
                       <svg
@@ -105,6 +109,7 @@
                     </a>
                   </li>
                 </ul>
+                
               </div>
             </div>
           </div>
