@@ -1,12 +1,11 @@
 <template>
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="px-6 mx-auto max-w-7xl lg:px-8">
-      <h2 class="mx-auto text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Contact Information
       </h2>
-      <!-- Contact Section -->
+      
       <div>
-        <!-- Teaching & Research Address -->
         <div>
           <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
           <p class="text-gray-700">
@@ -39,6 +38,7 @@
             <br />
             10785 Berlin
           </p>
+          
           <p class="mt-4">
             Homepage:
             <NuxtLink
@@ -72,7 +72,7 @@
             <br />
             Room: front building, floor 3, room K._030.023
           </p>
-          <!-- Map -->
+          
           <div class="mt-6">
             <NuxtImg
               src="images/Beuth_Lageplan_Kurfuerstenstrasse.png"
@@ -80,6 +80,7 @@
               class="max-w-screen-xl rounded-2xl shadow aspect-[5/3]"
             />
           </div>
+          
         </div>
       </div>
     </div>
