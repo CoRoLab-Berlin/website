@@ -26,6 +26,8 @@ logos:
   - "/images/logos/Logo__Fraunhofer.svg"
   - "/images/logos/Logo__IFA-DGUV.png"
   - "/images/logos/Logo__VDIVDE-IT.png"
+  - "/images/logos/Logo__JSD.jpg"
+  - "/images/logos/Logo__BerlinPartner.svg"
 text: |
   You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction.
 
