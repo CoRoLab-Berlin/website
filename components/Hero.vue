@@ -11,7 +11,7 @@
             </h1> -->
             <NuxtImg
               class=" h-48 w-auto"
-              src="images/corolab_logo.svg"
+              src="images/corolab_logo_only.svg"
               alt=""
             />
             <p class="text-gray-500 text-2xl text-center lg:text-left">
@@ -35,6 +35,7 @@
               <CommonCarousel :images="props.images" class="rounded-3xl w-full" />
             </div>
           </div>
+          
         </div>
       </div>
     </div>
