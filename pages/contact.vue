@@ -1,12 +1,7 @@
 <template>
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="px-6 mx-auto max-w-7xl lg:px-8">
-<!-- mb-6 lg:mb-16 -->
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Test test test tste gtzh hzju ploi
-        </h2>
-      </div>
+<!--  -->
 
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Contact Information
