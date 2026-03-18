@@ -51,7 +51,7 @@
               to="https://prof.bht-berlin.de/boblan/"
               class="text-blue-500 hover:underline"
               target="_blank"
-              > personally
+              > BHT personal page
             </NuxtLink>
             <br />
             Mail:
@@ -67,7 +67,7 @@
               to="tel:+493045047852"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >030 4504 7852
+              >+49(0)30- 4504 7852
             </NuxtLink>
             <br />
             Room: front building, floor 3, room K._030.023
