@@ -1,6 +1,6 @@
 <template>
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
-    <h2">test</h2>
+    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">test</h2>
     <div class="px-6 mx-auto max-w-7xl lg:px-8">
       
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
