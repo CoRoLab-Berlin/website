@@ -4,7 +4,7 @@ heroTitle: "Compliant Robotic Lab"
 heroSubtitle: "Soft design and control stiff - be inherently safe"
 heroImage: "/images/2022-mgasch-DSCF0972__680x510.jpg"
 images:
-  - "/images/2022-mgasch-DSCF0854__1024x683.jpg"
+  - "/images/2022-mgasch-DSCF0854__1024x683_kl.jpg"
   - "/images/2022-mgasch-DSCF0992__1024x683__MW.jpg"
   - "/images/hardware/go1.jpg"
   - "/images/IMG_20180418_163023__680x510_mLogo.jpg"
