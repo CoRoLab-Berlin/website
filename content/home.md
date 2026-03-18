@@ -5,7 +5,6 @@ heroSubtitle: "Soft design and control stiff - be inherently safe"
 heroImage: "/images/2022-mgasch-DSCF0972__680x510.jpg"
 images:
   - "/images/IMG_20180418_163023__680x510_mLogo.jpg"
-  - "/images/hardware/digit.jpg"
   - "/images/hardware/go1.jpg"
   - "/images/hardware/bionicMotionRobot.jpg"
   - "/images/_Festo--BionicMotionRobot__snap_3er_2__680x510_mLogo.png"
