@@ -11,7 +11,7 @@
             </h1> -->
             <NuxtImg
               class=" h-48 w-auto"
-              src="images/corolab_logo_only.svg"
+              src="images/corolab_logo.svg"
               alt=""
             />
             <p class="text-gray-500 text-2xl text-center lg:text-left">
