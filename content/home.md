@@ -4,6 +4,9 @@ heroTitle: "Compliant Robotic Lab"
 heroSubtitle: "Soft design and control stiff - be inherently safe"
 heroImage: "/images/2022-mgasch-DSCF0972__680x510.jpg"
 images:
+  - "/images/hardware/digit.jpg
+  - "/images/hardware/go1.jpg"
+  - "/images/hardware/bionicMotionRobot.jpg"
   - "/images/IMG_20180418_163023__680x510_mLogo.jpg"
   - "/images/IMG_20180416_223402__680x510_mLogo.jpg"
   - "/images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png"
@@ -16,10 +19,6 @@ images:
   - "/images/zar5-GreifPositionen_1.png"
   - "/images/zar5-GreifPositionen_4.png"
   - "/images/zar5-HM06-Merkel-05_cr.png"
-  - "/images/zar5-HM06-Merkel-07_cr.png"
-  - "/images/hardware/bionicMotionRobot.jpg"
-  - "/images/hardware/go1.jpg"
-  - "/images/hardware/digit.jpg
 logos:
   - "/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png"
   - "/images/logos/Logo__Biokon.svg"
