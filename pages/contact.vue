@@ -2,7 +2,7 @@
   <div class="pb-24 pt-12 sm:py-32 sm:pt-16">
     <div class="px-6 mx-auto max-w-7xl lg:px-8">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Contact Information 1234567890 1234567890 1234567890 1234567890 12345 12345 12345
+          Contact Information
       </h2>
       
       <div>
