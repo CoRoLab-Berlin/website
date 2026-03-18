@@ -19,7 +19,7 @@ images:
   - "/images/zar5-HM06-Merkel-07_cr.png"
 logos:
   - "/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png"
-  - "/images/logos/Logo_Biokon.svg"
+  - "/images/logos/Logo__Biokon.svg"
   - "/images/logos/CarlStahl_Logo.png"
   - "/images/logos/Logo__Schmalz.jpg"
   - "/images/logos/Logo__Festo.png"
