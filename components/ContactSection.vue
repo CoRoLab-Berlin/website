@@ -1,7 +1,7 @@
-<!-- eslint-disable vue/html-self-closing -->
 <template>
   <div>
     <h2 class="text-xl font-semibold mb-4">{{ info.title }}</h2>
+    
     <p class="text-gray-700">
       <template v-for="(item, index) in info.address" :key="index">
         <span v-if="item.link">
@@ -25,6 +25,7 @@
         <br />
       </template>
     </p>
+    
     <p class="mt-4">
       Homepage:
       <NuxtLink
@@ -55,6 +56,7 @@
       <br />
       Room: {{ info.room }}
     </p>
+    
     <div class="mt-6">
       <NuxtImg
         :src="info.map.src"
@@ -62,6 +64,7 @@
         class="w-full rounded-2xl shadow aspect-[5/3]"
       />
     </div>
+    
   </div>
 </template>
 
