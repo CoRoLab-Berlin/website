@@ -20,14 +20,14 @@
               to="https://www.bht-berlin.de/vii"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >FB VII - Elektrotechnik, 
+              >FB VII - Elektrotechnik -
             </NuxtLink>
             <br />
             <NuxtLink
               to="https://www.bht-berlin.de/b-hrob"
               class="text-blue-500 hover:underline"
               target="_blank"
-              >Humanoide Robotik (HROB), 
+              >Humanoide Robotik (HROB)
             </NuxtLink>
             <br />
             Compliant Robotics Lab (CoRoLab)
