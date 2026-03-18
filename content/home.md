@@ -10,7 +10,6 @@ images:
   - "/images/IMG_20180418_163023__680x510_mLogo.jpg"
   - "/images/_Festo--BionicMotionRobot__snap_3er_2__680x510_mLogo.png"
   - "/images/BROMMI-TAK__TUB-180513170513-31_700x510_text.jpg"
-  - "/images/zar5-GreifPositionen_1.png"
   - "/images/zar5-GreifPositionen_4.png"
   - "/images/zar5-HM06-Merkel-05_cr.png"
 logos:
