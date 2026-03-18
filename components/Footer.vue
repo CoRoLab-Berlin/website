@@ -2,9 +2,8 @@
   <footer class="w-full bg-bhtgray-800">
     <div class="mx-auto max-w-7xl p-6 lg:px-8">
       <div class="flex justify-between items-center flex-col gap-8 xl:flex-row">
-        <div
-          class="flex items-center justify-around lg:justify-between gap-5 flex-wrap w-full px-4 lg:p-0"
-        >
+        <div class="flex items-center justify-around lg:justify-between gap-5 flex-wrap w-full px-4 lg:p-0">
+          
           <div class="flex">
             <NuxtLink href="#" class="-m-1 p-1">
               <span class="sr-only">Your Company</span>
@@ -15,9 +14,8 @@
               />
             </NuxtLink>
           </div>
-          <ul
-            class="text-base flex items-center gap-3 md:gap-6 transition-all duration-500 justify-around"
-          >
+          
+          <ul class="text-base flex items-center gap-3 md:gap-6 transition-all duration-500 justify-around">
             <li v-for="(link, index) in props.links" :key="index">
               <NuxtLink
                 :to="link.url"
@@ -36,6 +34,7 @@
               </NuxtLink>
             </li>
           </ul>
+          
         </div>
       </div>
     </div>
