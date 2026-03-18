@@ -4,7 +4,7 @@
 <!-- mb-6 lg:mb-16 -->
       <div class="max-w-4xl mx-auto">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Test
+          Test test test tste gtzh hzju ploi
         </h2>
       </div>
 
