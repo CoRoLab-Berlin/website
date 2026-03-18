@@ -19,10 +19,13 @@ images:
   - "/images/zar5-HM06-Merkel-07_cr.png"
 logos:
   - "/images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png"
+  - "/images/logos/Logo_Biokon.svg"
   - "/images/logos/CarlStahl_Logo.png"
-  - "/images/logos/Festo_200x63.png"
-  - "/images/logos/TU-Berlin.png"
-  - "/images/logos/VDI-VDE-IT_200x63.png"
+  - "/images/logos/Logo_Schmalz.jpg"
+  - "/images/logos/Logo__Festo.png"
+  - "/images/logos/Logo__Fraunhofer.avif"
+  - "/images/logos/Logo__DGUV.png.png"
+  - "/images/logos/Logo__VDI-VDE-IT.png"
 text: |
   You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction.
 
