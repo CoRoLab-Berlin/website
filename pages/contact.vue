@@ -7,6 +7,7 @@
       
       <div>
         <div>
+          
           <h2 class="text-xl font-semibold mb-4">Teaching & Research Address</h2>
           <p class="text-gray-700">
             <NuxtLink
@@ -87,6 +88,7 @@
           
         </div>
       </div>
+      
     </div>
   </div>
 </template>
