@@ -22,6 +22,7 @@
               target="_blank"
               >FB VII - Elektrotechnik, 
             </NuxtLink>
+            <br />
             <NuxtLink
               to="https://www.bht-berlin.de/b-hrob"
               class="text-blue-500 hover:underline"
