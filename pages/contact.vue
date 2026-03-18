@@ -29,7 +29,7 @@
               >Humanoide Robotik (HROB), 
             </NuxtLink>
             <br />
-            Compliant Robotics Lab (CoRoLab)<br />
+            Compliant Robotics Lab (CoRoLab)
             <br />
             House of Robotics<br />
             <NuxtLink
