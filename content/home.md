@@ -23,6 +23,7 @@ logos:
   - "/images/logos/CarlStahl_Logo.png"
   - "/images/logos/Logo__Schmalz.jpg"
   - "/images/logos/Logo__Festo.png"
+  - "/images/logos/Logo__AlfredRexroth.jpg"
   - "/images/logos/Logo__Fraunhofer.svg"
   - "/images/logos/Logo__IFA-DGUV.png"
   - "/images/logos/Logo__VDIVDE-IT.png"
