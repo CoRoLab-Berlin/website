@@ -3,10 +3,10 @@ title: Robo4Care
 description: The goal of the IFAF project Robo4Care is the systematic relief of nursing staff.
 timespan: 2026 - 2027
 status: Active
-images: ["https://www.ifaf-berlin.de/projekte/robo4care/"]
+images: ["https://www.ifaf-berlin.de/media/resized/shutterstock_2069234372_erweitert-1440x450-c-center.jpg"]
 ---
 
-The IFAF funded project "Robotics for Care Enhancement" (Robo4Care) is a joint project of:
+The [IFAF funded project "Robotics for Care Enhancement" (Robo4Care)](https://www.ifaf-berlin.de/projekte/robo4care/) is a joint project of:
 
 - Berlin University of Applied Sciences (BHT-B) working group Compliant Robotics Lab (CoRoLab) of Prof. Dr.-Ing. Ivo W. Boblan,
 - Berlin University of Applied Sciences (BHT-H) working group Soft Interactive Robotics Laboratory (SIRo-Lab) of Prof. Dr.-Ing. Hannes Höppner,
