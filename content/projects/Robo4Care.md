@@ -1,6 +1,6 @@
 ---
 title: Robo4Care
-description: The overarching goal of the IFAF project Robo4Care is the systematic relief of nursing staff.
+description: The goal of the IFAF project Robo4Care is the systematic relief of nursing staff.
 timespan: 2026 - 2027
 status: Active
 images: ["https://www.ifaf-berlin.de/projekte/robo4care/"]
