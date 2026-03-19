@@ -11,9 +11,8 @@ The IFAF funded project "Robotics for Care Enhancement" (Robo4Care) is a joint p
 - Berlin University of Applied Sciences (BHT) working group Compliant Robotics Lab (CoRoLab) of Prof. Dr.-Ing. Ivo W. Boblan,
 - Berlin University of Applied Sciences (BHT) working group Soft Interactive Robotics Laboratory (SIRo-Lab) of Prof. Dr.-Ing. Hannes Höppner,
 - Alice Salomon University of Applied Sciences Berlin (ASH) working group Nursing Research of Prof. Dr. Johannes Gräske,
-- 
-- Hochschule für Technik und Wirtschaft Berlin working group medical physics of Prof. Dr. Stephan Matzka,
-- Fraunhofer Institut für Zuverlässigkeit und Mikrointegration e.V..
+- HTW Berlin - University of Applied Sciences Berlin (HTW) working group Design and Drive Technology of Prof. Dr.-Ing. Matthias Führer,
+- Fraunhofer Institut für Zuverlässigkeit und Mikrointegration e.V.,
 - trinitas Therapie.Bewegung.Sport. GmbH.
 
 Musculoskeletal disorders are the most common cause of incapacity to work. At the same time, there is a supply gap in the healthcare industry. Digital applications based on motion analysis address this problem. The potential for technical development in these applications lies in the reliability of the feedback generated in real time. Taking this up, the project is developing a demonstrator that analyzes exercise execution for a therapeutic movement program and gives users real-time feedback.
