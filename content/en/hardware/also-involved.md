@@ -1,7 +1,8 @@
 ---
-title: Also involved
-order: 7
+title: ... and also involved
+order: 8
 image: images/hardware/cyberKite.png
+description: Several biomimetic robot systems with focus on pneumatic control in trade fair demonstrators.
 ---
 Projects by Festo AG in which we contributed to the control and fluidic-muscle drive.
 

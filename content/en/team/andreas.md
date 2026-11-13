@@ -1,6 +1,6 @@
 ---
 name: Andreas Schulz
-role: Research Assistant
+role: Research Assistant (PhD)
 image: images/team/image.png
 ---
 

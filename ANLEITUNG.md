@@ -124,6 +124,7 @@ Gibt es keinen Text darunter, aber einen `link`, führt die Karte direkt auf die
 | `role` | ja | Rolle, z. B. `Head of Lab`, `Research Assistant` |
 | `description` | nein | eine Zeile über die Person |
 | `image` | nein | Foto, quadratisch ist am schönsten |
+| `extern` | nein | Hochschule bei externen Personen, erscheint in Klammern hinter dem Namen (z. B. `HTW`) |
 | `scholar`, `website`, `email` | nein | Links, erscheinen unter dem Namen |
 
 Sortierung: zuerst nach Rolle (Reihenfolge steht in `content/<sprache>/team/_index.md` unter `roles:`), dann

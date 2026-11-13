@@ -1,7 +1,7 @@
 ---
 title: 'Bionik, Biomimetics'
 description: >-
-  Bionics merges biology and technology to solve engineering challenges using
+  Bionik merges biology and technology to solve engineering challenges using
   insights from biological models (VDI-6220 2011).
 image: images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png
 order: 3

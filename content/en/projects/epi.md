@@ -5,6 +5,9 @@ description: >-
   an exoskeleton.
 timespan: 2019 - 2021
 status: Funding expires in September 2021
+images:
+  - >-
+    https://www.ifaf-berlin.de/media/resized/EPI_Gruppenfoto_DSC175841-HTW-Berlin_Alexander-Rentsch_1280x853-1432x800-c-center.jpg
 ---
 The [IFAF](https://www.ifaf-berlin.de/) funded project "[Exoskelette nach dem Prinzip elastischer Insektenlokomotion](https://www.ifaf-berlin.de/projekte/epi/)" (EPI) is a joint project of:
 

@@ -5,6 +5,9 @@ description: >-
   therapy for musculoskeletal disorders with precise feedback.
 timespan: 2023 - 2025
 status: Active
+images:
+  - >-
+    https://www.ifaf-berlin.de/media/resized/240425-mgasch-DSCF9679-967x540-c-center.jpg
 ---
 The IFAF funded project "KI auf biomech. Simulation zur Bewegungsanalyse in der Therapie" (BIOKIT) is a joint project of:
 

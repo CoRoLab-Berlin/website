@@ -5,5 +5,7 @@ description: >-
   flexible material handling.
 timespan: 2013 - 2016
 status: Funding expires
+images:
+  - 'https://www.interaktive-technologien.de/bilder/projekte/kobotaergo.jpg'
 ---
 In the [BmbF](https://www.bmbf.de/) funded joint project [KobotAERGO](https://www.technik-zum-menschen-bringen.de/projekte/kobotaergo), the lab is responsible for the adaptive control of the interaction, the development of human-robot interfaces, and adjustment mechanisms.

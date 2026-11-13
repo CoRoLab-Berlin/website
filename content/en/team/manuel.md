@@ -1,6 +1,6 @@
 ---
 name: Manuel Weiß
-role: Research Assistant
+role: Research Assistant (PhD)
 image: images/team/image.png
 ---
 

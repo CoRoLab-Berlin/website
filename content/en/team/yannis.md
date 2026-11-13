@@ -1,6 +1,6 @@
 ---
 name: Yannis Hahnemann
-role: Research Assistant (extern)
+role: Former Research Assistant
 image: images/team/image.png
 extern: HTW
 ---

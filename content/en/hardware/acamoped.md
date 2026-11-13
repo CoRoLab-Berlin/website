@@ -1,6 +1,9 @@
 ---
 title: aCAMOped
-order: 3
-image: images/hardware/camOped.jpg
+order: 4
+image: images/hardware/camOped_small.jpg
+description: >-
+  aCAMOped is equipped with fluidic muscles and intended for tasks in medical
+  knee rehabilitation.
 ---
-Is brand new and will hopefully come soon.
+

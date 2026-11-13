@@ -45,6 +45,7 @@ export const team = z.object({
   role: text,
   description: text.optional(),
   image: img,
+  extern: text.optional(), // external affiliation shown in brackets, e.g. HTW
   scholar: text.optional(), // Google Scholar URL
   website: text.optional(),
   email: text.optional(),

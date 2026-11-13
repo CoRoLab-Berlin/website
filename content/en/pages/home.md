@@ -4,26 +4,26 @@ heroTitle: Compliant Robotic Lab
 heroSubtitle: Soft design and control stiff - be inherently safe
 heroImage: images/2022-mgasch-DSCF0972__680x510.jpg
 images:
+  - images/2022-mgasch-DSCF0854__1024x683_kl.jpg
+  - images/2022-mgasch-DSCF0992_1024x683__MW.jpg
+  - images/hardware/go1.jpg
   - images/IMG_20180418_163023__680x510_mLogo.jpg
-  - images/IMG_20180416_223402__680x510_mLogo.jpg
-  - images/_Festo--BionicMotionRobot__snap_1er_1__680x510_mLogo.png
   - images/_Festo--BionicMotionRobot__snap_3er_2__680x510_mLogo.png
-  - images/BROMMI-TAK__Pose4_800x600_text-en.jpg
   - images/BROMMI-TAK__TUB-180513170513-31_700x510_text.jpg
-  - images/BROMMI-TAK__assistant_in_the_assembly_0001_640x480_text-en.jpg
-  - images/BROMMI-TAK__assistant_in_the_assembly_0022_800x600_text-en.jpg
-  - images/BROMMI-TAK__assistant_in_the_household_10014_800x600_text-en.jpg
-  - images/zar5-GreifPositionen_1.png
   - images/zar5-GreifPositionen_4.png
   - images/zar5-HM06-Merkel-05_cr.png
-  - images/zar5-HM06-Merkel-07_cr.png
 logos:
   - images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png
+  - images/logos/Logo__Biokon.svg
   - images/logos/CarlStahl_310x135.png
-  - images/logos/Festo_200x63.png
-  - images/logos/SachEng._400x175.jpg
-  - images/logos/TU-Berlin.png
-  - images/logos/VDI-VDE-IT_200x63.png
+  - images/logos/Logo__Schmalz.jpg
+  - images/logos/Logo__Festo.png
+  - images/logos/Logo__AlfredRexroth.jpg
+  - images/logos/Logo__Fraunhofer.svg
+  - images/logos/Logo__IFA-DGUV.png
+  - images/logos/Logo__VDIVDE-IT.png
+  - images/logos/Logo__JSD.jpg
+  - images/logos/Logo__BerlinPartner.svg
 ---
 You find information on activities of the laboratory for compliant robotic systems for applications in the safe human-robot interaction.
 
