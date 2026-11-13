@@ -19,7 +19,7 @@ images:
   - images/zar5-HM06-Merkel-07_cr.png
 logos:
   - images/logos/BHT_Logo_kompakt_horizontal_Anthrazit_RGB_144ppi.png
-  - images/logos/CarlStahl_Logo.png
+  - images/logos/CarlStahl_310x135.png
   - images/logos/Festo_200x63.png
   - images/logos/SachEng._400x175.jpg
   - images/logos/TU-Berlin.png

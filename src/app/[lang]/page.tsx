@@ -57,9 +57,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       {data.logos && data.logos.length > 0 && (
         <section className="mx-auto mt-20 max-w-6xl">
-          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 rounded-xl bg-white/95 px-8 py-8">
+          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 rounded-xl bg-white px-8 py-8">
             {data.logos.map((src) => (
-              <Img key={src} src={src} className="h-12 w-auto object-contain" />
+              <Img key={src} src={src} className="h-14 w-auto object-contain mix-blend-multiply" />
             ))}
           </div>
         </section>
