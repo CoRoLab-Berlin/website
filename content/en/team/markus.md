@@ -1,0 +1,7 @@
+---
+name: Markus Bernek
+role: Former Research Assistant
+image: images/team/image.png
+extern: HTW
+---
+

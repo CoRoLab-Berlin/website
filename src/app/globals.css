@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-yellow-50: #fffee7;
+  --color-yellow-100: #fffdc1;
+  --color-yellow-200: #fff786;
+  --color-yellow-300: #ffea41;
+  --color-yellow-400: #ffd90d;
+  --color-yellow-500: #ffc900;
+  --color-yellow-600: #d19300;
+  --color-yellow-700: #a66802;
+  --color-red-500: #fe5711;
+  --color-red-600: #ea3b07;
+  --color-on-accent: #1c1c1c;
+  --font-sans: var(--font-bht), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root:not([data-theme="light"]) { color-scheme: dark; }
+
+@theme inline {
+  --color-ink-50: var(--ink-50);
+  --color-ink-100: var(--ink-100);
+  --color-ink-200: var(--ink-200);
+  --color-ink-300: var(--ink-300);
+  --color-ink-400: var(--ink-400);
+  --color-ink-500: var(--ink-500);
+  --color-ink-600: var(--ink-600);
+  --color-ink-700: var(--ink-700);
+  --color-ink-800: var(--ink-800);
+  --color-ink-900: var(--ink-900);
+  --color-ink-950: var(--ink-950);
+  --color-strong: var(--strong);
+  --color-accent: var(--accent);
+}
+
+:root {
+  --ink-50: #f6f6f6;
+  --ink-100: #e7e7e7;
+  --ink-200: #d1d1d1;
+  --ink-300: #b0b0b0;
+  --ink-400: #888888;
+  --ink-500: #6d6d6d;
+  --ink-600: #5d5d5d;
+  --ink-700: #555555;
+  --ink-800: #3a3a3a;
+  --ink-900: #2a2a2a;
+  --ink-950: #1c1c1c;
+  --strong: #ffffff;
+  --accent: #ffc900;
+}
+/* Light theme: the grey scale is inverted, so all ink colors flip automatically. */
+html[data-theme="light"] {
+  --ink-50: #111111;
+  --ink-100: #1f1f1f;
+  --ink-200: #333333;
+  --ink-300: #4a4a4a;
+  --ink-400: #5f5f5f;
+  --ink-500: #777777;
+  --ink-600: #a0a0a0;
+  --ink-700: #c9c9c5;
+  --ink-800: #dcdcd7;
+  --ink-900: #eeeeea;
+  --ink-950: #fafaf7;
+  --strong: #111111;
+  --accent: #8a5600;
+  color-scheme: light;
+}
+body {
+  background: var(--color-ink-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-sans);
+}
+
+.prose-site {
+  --tw-prose-body: var(--color-ink-100);
+  --tw-prose-headings: var(--color-strong);
+  --tw-prose-bold: var(--color-strong);
+  --tw-prose-links: var(--color-accent);
+  --tw-prose-counters: var(--color-ink-300);
+  --tw-prose-bullets: var(--color-ink-400);
+  --tw-prose-hr: var(--color-ink-800);
+  --tw-prose-quotes: var(--color-ink-100);
+  --tw-prose-th-borders: var(--color-ink-700);
+  --tw-prose-td-borders: var(--color-ink-800);
+}
+
+/* header logo: dark-text version on dark theme, original on light */
+.logo-dark { display: block; }
+.logo-light { display: none; }
+:root[data-theme="light"] .logo-dark { display: none; }
+:root[data-theme="light"] .logo-light { display: block; }
