@@ -10,26 +10,34 @@ ZAR5 (2006, [pdf info](https://www.festo.com/net/de_corp/SupportPortal/Downloads
 
 Below you see some videos of ZAR5 as embedded YouTube videos:
 
-:YouTubeVideo{videoId="wYcuL55iI-w"}
+https://www.youtube.com/watch?v=wYcuL55iI-w
 
-:YouTubeVideo{videoId="mXFaofW8Q2c"}
+
+
+https://www.youtube.com/watch?v=mXFaofW8Q2c
 
 First tests in our workshop in 2005.
 
-:YouTubeVideo{videoId="feWxio7Bx-o"}
+https://www.youtube.com/watch?v=feWxio7Bx-o
 
-:YouTubeVideo{videoId="nVq576q-_wQ"}
+
+
+https://www.youtube.com/watch?v=nVq576q-_wQ
 
 Festo promotion video and last test before Hannover Messe 2006.
 
-:YouTubeVideo{videoId="pGsCKpbmzQw"}
+https://www.youtube.com/watch?v=pGsCKpbmzQw
 
-:YouTubeVideo{videoId="GNDkkpKhXoA"}
+
+
+https://www.youtube.com/watch?v=GNDkkpKhXoA
 
 Run 6 days 9 hours at the fairs Hannover Messe and ViennaTec in 2006.
 
-:YouTubeVideo{videoId="GXpp4NHfpm4"}
+https://www.youtube.com/watch?v=GXpp4NHfpm4
 
-:YouTubeVideo{videoId="WoMAyKdX5g"}
+
+
+https://www.youtube.com/watch?v=WoMAyKdX5g
 
 Detailed hand impressions in 2010.

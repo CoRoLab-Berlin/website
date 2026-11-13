@@ -36,6 +36,16 @@ Open the folder → **Add file → Create new file** → name it e.g. `my-projec
 Upload to `public/images/...` or `public/pdfs/...` (**Add file → Upload files**), then reference as
 `images/projects/photo.jpg`. Please resize photos to ≤ 1600 px wide.
 
+### YouTube videos
+
+Put the normal YouTube link on a line of its own (with an empty line before and after):
+
+```
+https://www.youtube.com/watch?v=VIDEO_ID
+```
+
+It is shown as an embedded video (privacy-friendly youtube-nocookie).
+
 ### Translations
 
 German and English files have the same name. If a German file is missing, the English text is shown with a short note,
