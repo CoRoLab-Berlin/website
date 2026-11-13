@@ -18,19 +18,19 @@ export default async function Team({ params }: { params: Promise<{ lang: string 
       <div className="mx-auto mt-12 max-w-2xl space-y-14">
         {groups.map((g) => (
           <section key={g.role}>
-            <h2 className="mb-6 text-sm font-semibold uppercase tracking-widest text-yellow-500">{g.role}</h2>
+            <h2 className="mb-6 text-sm font-semibold uppercase tracking-widest text-accent">{g.role}</h2>
             <ul className="space-y-5">
               {g.members.map((m) => (
                 <li key={m.slug} className="flex gap-5 rounded-xl border border-ink-800 bg-ink-900/60 p-5">
                   <Img src={m.data.image} alt={m.data.name} className="h-24 w-24 shrink-0 rounded-full object-cover" />
                   <div className="min-w-0">
-                    <h3 className="text-lg font-semibold text-white">{m.data.name}</h3>
+                    <h3 className="text-lg font-semibold text-strong">{m.data.name}</h3>
                     {m.data.description && <p className="mt-1 text-sm text-ink-300">{m.data.description}</p>}
                     {m.body && <Markdown className="mt-2 text-sm">{m.body}</Markdown>}
                     <p className="mt-3 flex flex-wrap gap-x-4 text-sm">
-                      {m.data.scholar && <a className="text-yellow-500 hover:underline" href={m.data.scholar} target="_blank" rel="noopener noreferrer">Google Scholar</a>}
-                      {m.data.website && <a className="text-yellow-500 hover:underline" href={m.data.website} target="_blank" rel="noopener noreferrer">Website</a>}
-                      {m.data.email && <a className="text-yellow-500 hover:underline" href={`mailto:${m.data.email}`}>{m.data.email}</a>}
+                      {m.data.scholar && <a className="text-accent hover:underline" href={m.data.scholar} target="_blank" rel="noopener noreferrer">Google Scholar</a>}
+                      {m.data.website && <a className="text-accent hover:underline" href={m.data.website} target="_blank" rel="noopener noreferrer">Website</a>}
+                      {m.data.email && <a className="text-accent hover:underline" href={`mailto:${m.data.email}`}>{m.data.email}</a>}
                     </p>
                   </div>
                 </li>

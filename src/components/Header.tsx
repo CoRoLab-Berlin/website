@@ -16,10 +16,12 @@ export function Header({ lang, site }: { lang: Lang; site: Site }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-ink-800 bg-ink-950/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link href={`/${lang}/`} className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={asset("images/corolab_logo.svg")} alt={site.siteName} className="h-11 w-auto" />
+          {/* eslint-disable @next/next/no-img-element */}
+          <img src={asset("images/corolab_logo.svg")} alt={site.siteName} className="logo-light h-14 w-auto" />
+          <img src={asset("images/corolab_logo_on_dark.svg")} alt={site.siteName} className="logo-dark h-14 w-auto" />
+          {/* eslint-enable @next/next/no-img-element */}
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex" aria-label="Main">
@@ -27,14 +29,15 @@ export function Header({ lang, site }: { lang: Lang; site: Site }) {
             <Link
               key={l.k}
               href={l.href}
-              className={`text-sm font-medium transition hover:text-yellow-500 ${
-                path.startsWith(l.href.replace(/\/$/, "")) ? "text-yellow-500" : "text-ink-100"
+              className={`text-sm font-medium transition hover:text-accent ${
+                path.startsWith(l.href.replace(/\/$/, "")) ? "text-accent" : "text-ink-100"
               }`}
             >
               {l.label}
             </Link>
           ))}
           <LangSwitch lang={lang} rest={rest} label={site.ui.language} />
+          <ThemeToggle />
         </nav>
 
         <button
@@ -58,8 +61,9 @@ export function Header({ lang, site }: { lang: Lang; site: Site }) {
                 </Link>
               </li>
             ))}
-            <li>
+            <li className="flex items-center gap-4">
               <LangSwitch lang={lang} rest={rest} label={site.ui.language} />
+              <ThemeToggle />
             </li>
           </ul>
         </nav>
@@ -77,12 +81,30 @@ function LangSwitch({ lang, rest, label }: { lang: Lang; rest: string; label: st
           <Link
             href={`/${l}${rest}`}
             hrefLang={l}
-            className={l === lang ? "font-bold text-yellow-500" : "text-ink-300 hover:text-white"}
+            className={l === lang ? "font-bold text-accent" : "text-ink-300 hover:text-strong"}
           >
             {l.toUpperCase()}
           </Link>
         </span>
       ))}
     </span>
+  );
+}
+
+function ThemeToggle() {
+  const toggle = () => {
+    const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+    document.documentElement.dataset.theme = next;
+    try {
+      localStorage.setItem("theme", next);
+    } catch {}
+  };
+  return (
+    <button onClick={toggle} aria-label="Toggle light/dark mode" title="Light / dark" className="rounded p-1.5 text-ink-300 hover:text-accent">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+      </svg>
+    </button>
   );
 }

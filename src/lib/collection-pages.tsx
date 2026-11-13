@@ -71,12 +71,12 @@ export function detailPage(name: Name) {
       const images: string[] = e.data.images ?? (e.data.image ? [e.data.image] : []);
       return (
         <article className="mx-auto max-w-3xl">
-          <Link href={`/${lang}/${name}/`} className="text-sm text-yellow-500 hover:underline">
+          <Link href={`/${lang}/${name}/`} className="text-sm text-accent hover:underline">
             ← {site.nav[name]}
           </Link>
-          <h1 className="mt-4 text-4xl font-bold text-white">{e.data.title}</h1>
+          <h1 className="mt-4 text-4xl font-bold text-strong">{e.data.title}</h1>
           {(e.data.timespan || e.data.status) && (
-            <p className="mt-2 text-yellow-500">{[e.data.timespan, e.data.status].filter(Boolean).join(" · ")}</p>
+            <p className="mt-2 text-accent">{[e.data.timespan, e.data.status].filter(Boolean).join(" · ")}</p>
           )}
           {e.fallback && <NotTranslated text={site.ui.notTranslated} />}
           {e.data.description && <p className="mt-6 text-xl text-ink-200">{e.data.description}</p>}
@@ -93,7 +93,7 @@ export function detailPage(name: Name) {
               href={e.data.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-block rounded-lg bg-yellow-500 px-5 py-2.5 font-semibold text-ink-950 hover:bg-yellow-400"
+              className="mt-8 inline-block rounded-lg bg-yellow-500 px-5 py-2.5 font-semibold text-on-accent hover:bg-yellow-400"
             >
               {site.ui.readMore} →
             </a>

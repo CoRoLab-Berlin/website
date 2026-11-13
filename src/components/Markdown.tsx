@@ -9,7 +9,7 @@ const YT = /^https?:\/\/(?:www\.|m\.)?(?:youtube\.com\/watch\?(?:.*&)?v=|youtu\.
 export function Markdown({ children, className = "" }: { children: string; className?: string }) {
   if (!children) return null;
   return (
-    <div className={`prose prose-invert prose-site max-w-none ${className}`}>
+    <div className={`prose prose-site max-w-none ${className}`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         urlTransform={(url) => url}

@@ -17,22 +17,22 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   return (
     <div className="-mt-16">
       <section className="relative isolate overflow-hidden">
-        <Img src={data.heroImage} className="absolute inset-0 -z-10 h-full w-full object-cover object-top opacity-50" />
+        <Img src={data.heroImage} className="absolute inset-0 -z-10 h-full w-full object-cover object-top opacity-50 [html[data-theme=light]_&]:opacity-80" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent" />
         <div className="mx-auto flex min-h-[72vh] max-w-6xl flex-col justify-end pb-16 pt-32">
           <span className="mb-5 h-1 w-16 rounded bg-yellow-500" />
-          <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl">{data.heroTitle}</h1>
-          {data.heroSubtitle && <p className="mt-4 max-w-2xl text-xl text-yellow-500">{data.heroSubtitle}</p>}
+          <h1 className="text-5xl font-bold tracking-tight text-strong sm:text-7xl">{data.heroTitle}</h1>
+          {data.heroSubtitle && <p className="mt-4 max-w-2xl text-xl text-accent">{data.heroSubtitle}</p>}
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href={`/${lang}/projects/`}
-              className="rounded-lg bg-yellow-500 px-5 py-2.5 font-semibold text-ink-950 hover:bg-yellow-400"
+              className="rounded-lg bg-yellow-500 px-5 py-2.5 font-semibold text-on-accent hover:bg-yellow-400"
             >
               {site.nav.projects}
             </Link>
             <Link
               href={`/${lang}/contact/`}
-              className="rounded-lg border border-ink-600 px-5 py-2.5 font-semibold text-white hover:border-yellow-500"
+              className="rounded-lg border border-ink-600 px-5 py-2.5 font-semibold text-strong hover:border-yellow-500"
             >
               {site.nav.contact}
             </Link>
@@ -41,7 +41,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </section>
 
       <section className="mx-auto mt-16 max-w-3xl">
-        <h2 className="mb-6 text-3xl font-bold text-white sm:text-4xl">{data.title}</h2>
+        <h2 className="mb-6 text-3xl font-bold text-strong sm:text-4xl">{data.title}</h2>
         <Markdown className="text-lg">{body}</Markdown>
       </section>
 

@@ -13,7 +13,7 @@ export function Publications({
   const shown = active === "all" ? groups : groups.filter((g) => g.id === active);
   const btn = (on: boolean) =>
     `rounded-full px-4 py-1.5 text-sm font-medium transition ${
-      on ? "bg-yellow-500 text-ink-950" : "border border-ink-700 text-ink-100 hover:border-yellow-500"
+      on ? "bg-yellow-500 text-on-accent" : "border border-ink-700 text-ink-100 hover:border-yellow-500"
     }`;
   return (
     <div className="mx-auto mt-10 max-w-3xl">
@@ -30,7 +30,7 @@ export function Publications({
       <div className="mt-10 space-y-14">
         {shown.map((g) => (
           <section key={g.id} id={g.id}>
-            <h2 className="mb-4 text-2xl font-bold text-white">{g.title}</h2>
+            <h2 className="mb-4 text-2xl font-bold text-strong">{g.title}</h2>
             <Markdown>{g.body}</Markdown>
           </section>
         ))}

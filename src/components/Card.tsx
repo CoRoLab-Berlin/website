@@ -22,12 +22,12 @@ export function Card({ title, description, image, href, external, meta, badge }:
       )}
       <div className="flex flex-1 flex-col p-5">
         {(meta || badge) && (
-          <p className="flex flex-wrap items-center gap-2 text-sm text-yellow-500">
+          <p className="flex flex-wrap items-center gap-2 text-sm text-accent">
             {meta}
-            {badge && <span className="rounded bg-yellow-500 px-2 py-0.5 text-xs font-semibold text-ink-950">{badge}</span>}
+            {badge && <span className="rounded bg-yellow-500 px-2 py-0.5 text-xs font-semibold text-on-accent">{badge}</span>}
           </p>
         )}
-        <h3 className="mt-1 text-lg font-semibold text-white">{title}</h3>
+        <h3 className="mt-1 text-lg font-semibold text-strong">{title}</h3>
         {description && <p className="mt-2 line-clamp-4 text-sm text-ink-300">{description}</p>}
       </div>
     </>

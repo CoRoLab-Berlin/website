@@ -11,10 +11,10 @@ export function Footer({ lang, site }: { lang: Lang; site: Site }) {
           {site.footer.note ? ` · ${site.footer.note}` : ""}
         </p>
         <div className="flex gap-6">
-          <Link href={`/${lang}/contact/`} className="hover:text-yellow-500">
+          <Link href={`/${lang}/contact/`} className="hover:text-accent">
             {site.footer.contact}
           </Link>
-          <Link href={`/${lang}/disclaimer/`} className="hover:text-yellow-500">
+          <Link href={`/${lang}/disclaimer/`} className="hover:text-accent">
             {site.footer.disclaimer}
           </Link>
         </div>
