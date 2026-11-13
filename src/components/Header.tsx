@@ -19,8 +19,8 @@ export function Header({ lang, site }: { lang: Lang; site: Site }) {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link href={`/${lang}/`} className="flex items-center gap-3" onClick={() => setOpen(false)}>
           {/* eslint-disable @next/next/no-img-element */}
-          <img src={asset("images/corolab_logo.svg")} alt={site.siteName} className="logo-light h-14 w-auto" />
-          <img src={asset("images/corolab_logo_on_dark.svg")} alt={site.siteName} className="logo-dark h-14 w-auto" />
+          <img src={asset("images/corolab_logo_compact.svg")} alt={site.siteName} className="logo-light h-12 w-auto" />
+          <img src={asset("images/corolab_logo_compact_on_dark.svg")} alt={site.siteName} className="logo-dark h-12 w-auto" />
           {/* eslint-enable @next/next/no-img-element */}
         </Link>
 
