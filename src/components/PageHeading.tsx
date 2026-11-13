@@ -4,7 +4,13 @@ export function PageHeading({ title, intro }: { title: string; intro?: string })
   return (
     <header className="mx-auto max-w-3xl text-center">
       <h1 className="text-4xl font-bold tracking-tight text-strong sm:text-5xl">{title}</h1>
-      {intro && <Markdown className="mt-6 text-lg">{intro}</Markdown>}
+      {intro &&
+        // short intro: centred and large; long intro: justified body text
+        (intro.length > 300 ? (
+          <Markdown className="mt-8 text-justify hyphens-auto">{intro}</Markdown>
+        ) : (
+          <Markdown className="mt-6 text-lg">{intro}</Markdown>
+        ))}
     </header>
   );
 }

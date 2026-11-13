@@ -1,8 +1,6 @@
 ---
 title: Disclaimer
 ---
-# Legal information
-
 ## This page is operated by:
 
 Berliner Hochschule für Technik  

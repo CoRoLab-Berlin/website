@@ -18,4 +18,5 @@ ui:
   notTranslated: Diese Seite ist noch nicht auf Deutsch verfügbar – es wird die englische Version angezeigt.
   language: Sprache
   all: Alle
+  empty: Hier gibt es noch keine Einträge – bald mehr.
 ---

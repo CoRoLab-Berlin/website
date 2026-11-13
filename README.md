@@ -3,6 +3,8 @@
 React (Next.js) + Tailwind, bilingual (EN/DE), hosted on GitHub Pages.
 **All text lives in `content/` – nobody needs to touch code to change it.**
 
+👉 **Step-by-step guide for editors (German): [ANLEITUNG.md](ANLEITUNG.md)**
+
 ## Edit content (no setup needed)
 
 1. Open this repository on GitHub and go to the `content` folder.

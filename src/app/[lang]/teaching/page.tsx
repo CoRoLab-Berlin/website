@@ -14,6 +14,7 @@ export default async function Teaching({ params }: { params: Promise<{ lang: str
     <div>
       <PageHeading title={section?.data.title ?? site.nav.teaching} intro={section?.data.description} />
       {section?.fallback && <NotTranslated text={site.ui.notTranslated} />}
+      {items.length === 0 && <p className="mt-12 text-center text-ink-400">{site.ui.empty}</p>}
       <div className="mx-auto mt-12 max-w-2xl space-y-6">
         {items.map((t) => (
           <Card

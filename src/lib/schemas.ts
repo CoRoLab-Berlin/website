@@ -102,6 +102,7 @@ export const site = z.object({
     notTranslated: text,
     language: text,
     all: text,
+    empty: text,
   }),
 });
 
