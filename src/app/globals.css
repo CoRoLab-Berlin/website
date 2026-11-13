@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-yellow-50: #fffee7;
+  --color-yellow-100: #fffdc1;
+  --color-yellow-200: #fff786;
+  --color-yellow-300: #ffea41;
+  --color-yellow-400: #ffd90d;
+  --color-yellow-500: #ffc900;
+  --color-yellow-600: #d19300;
+  --color-yellow-700: #a66802;
+  --color-red-500: #fe5711;
+  --color-red-600: #ea3b07;
+  --color-ink-50: #f6f6f6;
+  --color-ink-100: #e7e7e7;
+  --color-ink-200: #d1d1d1;
+  --color-ink-300: #b0b0b0;
+  --color-ink-400: #888888;
+  --color-ink-500: #6d6d6d;
+  --color-ink-600: #5d5d5d;
+  --color-ink-700: #555555;
+  --color-ink-800: #3a3a3a;
+  --color-ink-900: #2a2a2a;
+  --color-ink-950: #1c1c1c;
+  --font-sans: var(--font-bht), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-ink-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-sans);
+}
+
+.prose-site {
+  --tw-prose-body: var(--color-ink-100);
+  --tw-prose-headings: white;
+  --tw-prose-bold: white;
+  --tw-prose-links: var(--color-yellow-500);
+  --tw-prose-counters: var(--color-ink-300);
+  --tw-prose-bullets: var(--color-ink-400);
+  --tw-prose-hr: var(--color-ink-800);
+  --tw-prose-quotes: var(--color-ink-100);
+  --tw-prose-th-borders: var(--color-ink-700);
+  --tw-prose-td-borders: var(--color-ink-800);
+}
