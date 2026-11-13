@@ -68,8 +68,13 @@ for (const lang of langs)
     for (const m of fm.content.matchAll(/!?\[[^\]]*\]\(([^)\s]+)\)/g))
       if (/\.(jpe?g|png|svg|webp|gif|pdf)$/i.test(m[1]) && !/^https?:/.test(m[1])) refs.push(m[1]);
     for (const r of refs)
-      if (!fs.existsSync(path.join(publicDir, r.replace(/^\/+/, ""))))
-        warnings.push(`content/${lang}/${rel}: file "${r}" not found in /public`);
+    {
+      const full = path.join(publicDir, r.replace(/^\/+/, ""));
+      const dir = path.dirname(full);
+      // exact-case check: works on a Mac but breaks on the (case-sensitive) server otherwise
+      const exact = fs.existsSync(dir) && fs.readdirSync(dir).includes(path.basename(full));
+      if (!exact) warnings.push(`content/${lang}/${rel}: file "${r}" not found in /public (check upper/lower case)`);
+    }
   }
 
 warnings.forEach((w) => console.warn("⚠ ", w));
